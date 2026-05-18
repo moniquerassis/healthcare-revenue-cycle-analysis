@@ -1,0 +1,1001 @@
+claim_id,hospital_id,hospital_name,city,state,hospital_type,department,payer,admission_date,length_of_stay_days,billed_amount,collected_amount,collection_rate_pct,claim_denied,denial_reason,readmitted_30days
+CLM00001,H002,Miami Medical Center,Miami,FL,For-Profit,Cardiology,Cigna,2024-02-14,4,24464.95,20851.99,85.2,No,,No
+CLM00002,H001,General Hospital NYC,New York,NY,Non-Profit,Cardiology,Medicare,2024-12-14,1,19756.27,16210.72,82.1,No,,No
+CLM00003,H004,Houston Care Center,Houston,TX,Government,Emergency,UnitedHealth,2022-03-25,6,24728.92,23169.27,93.7,No,,No
+CLM00004,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Cardiology,Medicare,2023-12-18,12,33223.93,26775.1,80.6,No,,No
+CLM00005,H002,Miami Medical Center,Miami,FL,For-Profit,Emergency,Medicare,2024-04-03,20,47595.39,40596.03,85.3,No,,No
+CLM00006,H001,General Hospital NYC,New York,NY,Non-Profit,Pulmonology,Medicaid,2024-08-27,8,66051.21,48119.77,72.9,No,,No
+CLM00007,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Orthopedics,Blue Cross,2022-04-15,21,31165.1,28890.59,92.7,Yes,Prior authorization required,No
+CLM00008,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Oncology,Cigna,2022-04-26,11,58961.52,50232.95,85.2,No,,No
+CLM00009,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Emergency,Blue Cross,2023-11-13,19,7026.75,6684.64,95.1,No,,No
+CLM00010,H008,San Antonio Health,San Antonio,TX,Government,Orthopedics,Blue Cross,2023-10-12,18,13159.13,12297.19,93.4,No,,No
+CLM00011,H004,Houston Care Center,Houston,TX,Government,Orthopedics,UnitedHealth,2024-07-03,4,42708.57,39530.12,92.6,Yes,Prior authorization required,No
+CLM00012,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Emergency,UnitedHealth,2022-12-22,18,84676.14,76455.06,90.3,No,,Yes
+CLM00013,H009,Dallas Medical Center,Dallas,TX,For-Profit,Gastroenterology,Blue Cross,2024-12-09,10,65677.99,58717.28,89.4,No,,No
+CLM00014,H009,Dallas Medical Center,Dallas,TX,For-Profit,Gastroenterology,Medicaid,2022-10-05,21,43891.42,28118.65,64.1,No,,No
+CLM00015,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Gastroenterology,Medicaid,2022-08-04,17,46538.15,32942.62,70.8,No,,No
+CLM00016,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Gastroenterology,Self-Pay,2022-08-25,19,27177.43,11028.4,40.6,No,,Yes
+CLM00017,H009,Dallas Medical Center,Dallas,TX,For-Profit,Gastroenterology,Medicaid,2022-07-18,18,12220.69,8279.86,67.8,Yes,Patient eligibility,No
+CLM00018,H004,Houston Care Center,Houston,TX,Government,Pulmonology,Blue Cross,2022-02-08,12,34815.86,32280.18,92.7,No,,No
+CLM00019,H002,Miami Medical Center,Miami,FL,For-Profit,Oncology,Medicare,2023-01-03,8,50623.78,40145.24,79.3,Yes,Missing documentation,No
+CLM00020,H009,Dallas Medical Center,Dallas,TX,For-Profit,Orthopedics,Blue Cross,2023-10-08,5,57359.64,50558.15,88.1,No,,No
+CLM00021,H008,San Antonio Health,San Antonio,TX,Government,Gastroenterology,Aetna,2022-12-22,14,17399.23,14784.01,85.0,No,,No
+CLM00022,H002,Miami Medical Center,Miami,FL,For-Profit,Cardiology,Aetna,2022-08-14,4,62305.83,57325.06,92.0,No,,No
+CLM00023,H003,Chicago Health System,Chicago,IL,Non-Profit,Oncology,Aetna,2022-02-21,15,22358.84,20845.74,93.2,No,,No
+CLM00024,H009,Dallas Medical Center,Dallas,TX,For-Profit,Gastroenterology,Medicare,2022-07-06,8,82411.19,71090.92,86.3,Yes,Coding error,No
+CLM00025,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Cardiology,Aetna,2024-12-22,15,23644.46,21715.24,91.8,No,,No
+CLM00026,H008,San Antonio Health,San Antonio,TX,Government,Orthopedics,Medicaid,2022-06-02,19,26275.1,19098.61,72.7,No,,Yes
+CLM00027,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Emergency,UnitedHealth,2022-03-20,2,78268.83,70685.57,90.3,No,,Yes
+CLM00028,H002,Miami Medical Center,Miami,FL,For-Profit,Pulmonology,Self-Pay,2022-10-14,19,21139.53,8709.25,41.2,No,,No
+CLM00029,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Neurology,UnitedHealth,2024-11-10,11,27916.88,24457.32,87.6,No,,No
+CLM00030,H008,San Antonio Health,San Antonio,TX,Government,Oncology,Self-Pay,2024-02-07,20,79633.81,31927.71,40.1,No,,No
+CLM00031,H009,Dallas Medical Center,Dallas,TX,For-Profit,Oncology,Medicaid,2024-09-10,8,79427.16,57035.56,71.8,No,,No
+CLM00032,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Gastroenterology,Cigna,2023-03-04,18,45666.55,40953.14,89.7,No,,No
+CLM00033,H002,Miami Medical Center,Miami,FL,For-Profit,Pulmonology,UnitedHealth,2023-11-17,7,14479.9,12715.9,87.8,No,,No
+CLM00034,H008,San Antonio Health,San Antonio,TX,Government,Oncology,Self-Pay,2023-11-06,9,5741.71,2660.87,46.3,Yes,Duplicate claim,No
+CLM00035,H008,San Antonio Health,San Antonio,TX,Government,Neurology,Cigna,2024-03-02,3,37211.86,30921.83,83.1,No,,No
+CLM00036,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Neurology,UnitedHealth,2023-01-07,10,13865.83,11962.67,86.3,No,,No
+CLM00037,H004,Houston Care Center,Houston,TX,Government,Pulmonology,Medicare,2022-04-26,14,31032.17,25632.21,82.6,No,,No
+CLM00038,H003,Chicago Health System,Chicago,IL,Non-Profit,Emergency,Medicare,2023-04-06,14,16476.62,14210.24,86.2,No,,No
+CLM00039,H002,Miami Medical Center,Miami,FL,For-Profit,Emergency,Self-Pay,2022-05-08,7,4733.5,2116.2,44.7,No,,No
+CLM00040,H001,General Hospital NYC,New York,NY,Non-Profit,Pulmonology,Medicaid,2024-11-13,3,34771.91,22875.06,65.8,No,,No
+CLM00041,H009,Dallas Medical Center,Dallas,TX,For-Profit,Oncology,Medicare,2022-01-20,6,11131.04,9651.06,86.7,No,,No
+CLM00042,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Oncology,Cigna,2024-01-14,17,67166.75,58679.52,87.4,Yes,Patient eligibility,No
+CLM00043,H001,General Hospital NYC,New York,NY,Non-Profit,Neurology,Self-Pay,2023-11-20,7,46460.74,21926.82,47.2,No,,Yes
+CLM00044,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Pulmonology,Self-Pay,2024-07-10,17,11906.21,5834.1,49.0,No,,No
+CLM00045,H009,Dallas Medical Center,Dallas,TX,For-Profit,Orthopedics,Medicaid,2022-09-10,6,36607.27,26504.99,72.4,No,,No
+CLM00046,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Orthopedics,Aetna,2024-04-16,11,67110.86,60444.48,90.1,No,,No
+CLM00047,H003,Chicago Health System,Chicago,IL,Non-Profit,Pulmonology,Medicare,2024-04-10,20,25196.16,21073.7,83.6,No,,No
+CLM00048,H004,Houston Care Center,Houston,TX,Government,Gastroenterology,Medicaid,2023-08-21,16,13804.06,8760.35,63.5,No,,No
+CLM00049,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Orthopedics,Cigna,2023-02-08,8,59645.58,52454.57,87.9,Yes,Missing documentation,No
+CLM00050,H003,Chicago Health System,Chicago,IL,Non-Profit,Gastroenterology,Cigna,2023-03-22,8,44749.47,37366.78,83.5,No,,No
+CLM00051,H009,Dallas Medical Center,Dallas,TX,For-Profit,Neurology,UnitedHealth,2023-09-27,15,27994.38,25909.5,92.6,No,,No
+CLM00052,H009,Dallas Medical Center,Dallas,TX,For-Profit,Emergency,Medicaid,2024-05-16,9,63595.23,43083.7,67.7,No,,No
+CLM00053,H004,Houston Care Center,Houston,TX,Government,Oncology,Aetna,2022-02-05,9,7969.86,6922.4,86.9,No,,No
+CLM00054,H004,Houston Care Center,Houston,TX,Government,Emergency,Cigna,2022-07-07,14,14259.24,12140.25,85.1,No,,No
+CLM00055,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Emergency,Self-Pay,2023-06-25,19,50270.63,23604.69,47.0,No,,Yes
+CLM00056,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Gastroenterology,Self-Pay,2022-08-09,18,36488.28,17322.87,47.5,No,,No
+CLM00057,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Emergency,Medicare,2024-03-18,13,33969.58,28428.71,83.7,No,,No
+CLM00058,H001,General Hospital NYC,New York,NY,Non-Profit,Emergency,UnitedHealth,2022-03-09,21,48626.73,41464.51,85.3,No,,No
+CLM00059,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Oncology,Medicaid,2023-07-27,13,39467.39,26196.48,66.4,No,,No
+CLM00060,H002,Miami Medical Center,Miami,FL,For-Profit,Emergency,Medicare,2022-11-25,12,64043.53,49647.09,77.5,No,,Yes
+CLM00061,H001,General Hospital NYC,New York,NY,Non-Profit,Orthopedics,Medicaid,2023-04-23,8,71575.61,49539.88,69.2,Yes,Missing documentation,No
+CLM00062,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Gastroenterology,Blue Cross,2022-05-19,4,15510.39,14280.8,92.1,No,,No
+CLM00063,H001,General Hospital NYC,New York,NY,Non-Profit,Oncology,UnitedHealth,2024-10-27,13,58058.5,54912.73,94.6,No,,No
+CLM00064,H004,Houston Care Center,Houston,TX,Government,Cardiology,Cigna,2022-10-12,20,66002.15,60393.9,91.5,No,,No
+CLM00065,H009,Dallas Medical Center,Dallas,TX,For-Profit,Emergency,Cigna,2023-02-12,11,32442.67,28568.89,88.1,Yes,Coding error,No
+CLM00066,H008,San Antonio Health,San Antonio,TX,Government,Pulmonology,Medicaid,2023-09-15,21,37863.18,26632.19,70.3,No,,No
+CLM00067,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Gastroenterology,Cigna,2022-08-25,8,50971.63,43949.29,86.2,No,,Yes
+CLM00068,H008,San Antonio Health,San Antonio,TX,Government,Neurology,UnitedHealth,2023-04-26,16,57293.74,50627.02,88.4,No,,No
+CLM00069,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Oncology,Blue Cross,2022-04-08,9,75006.72,69765.13,93.0,No,,No
+CLM00070,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Emergency,UnitedHealth,2022-01-10,21,64806.75,59561.35,91.9,No,,No
+CLM00071,H004,Houston Care Center,Houston,TX,Government,Emergency,Cigna,2024-07-18,12,21815.98,19555.76,89.6,No,,No
+CLM00072,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Oncology,Cigna,2024-12-25,8,39387.73,33899.53,86.1,Yes,Prior authorization required,No
+CLM00073,H003,Chicago Health System,Chicago,IL,Non-Profit,Orthopedics,Medicaid,2022-05-27,19,63173.49,41546.04,65.8,No,,No
+CLM00074,H004,Houston Care Center,Houston,TX,Government,Oncology,Medicaid,2023-09-23,18,31633.57,20885.33,66.0,Yes,Missing documentation,No
+CLM00075,H003,Chicago Health System,Chicago,IL,Non-Profit,Pulmonology,Self-Pay,2023-08-06,1,64358.15,26403.5,41.0,No,,No
+CLM00076,H001,General Hospital NYC,New York,NY,Non-Profit,Oncology,Self-Pay,2022-11-05,13,41390.39,19958.92,48.2,No,,No
+CLM00077,H003,Chicago Health System,Chicago,IL,Non-Profit,Gastroenterology,UnitedHealth,2022-10-25,8,80751.99,69327.04,85.9,Yes,Coding error,No
+CLM00078,H009,Dallas Medical Center,Dallas,TX,For-Profit,Emergency,Aetna,2022-10-20,19,77360.12,67282.83,87.0,No,,No
+CLM00079,H002,Miami Medical Center,Miami,FL,For-Profit,Gastroenterology,Medicaid,2022-03-14,3,53730.51,35272.18,65.6,Yes,Prior authorization required,No
+CLM00080,H008,San Antonio Health,San Antonio,TX,Government,Pulmonology,UnitedHealth,2022-08-22,10,40737.69,34760.0,85.3,No,,No
+CLM00081,H004,Houston Care Center,Houston,TX,Government,Oncology,Self-Pay,2022-11-09,7,67569.19,31012.84,45.9,No,,No
+CLM00082,H003,Chicago Health System,Chicago,IL,Non-Profit,Cardiology,Medicare,2024-08-10,19,15354.55,12295.33,80.1,No,,No
+CLM00083,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Oncology,UnitedHealth,2023-10-01,20,46588.46,41639.64,89.4,Yes,Coding error,No
+CLM00084,H002,Miami Medical Center,Miami,FL,For-Profit,Orthopedics,Cigna,2024-05-02,1,71302.54,63282.42,88.8,No,,No
+CLM00085,H003,Chicago Health System,Chicago,IL,Non-Profit,Emergency,UnitedHealth,2022-08-16,6,55901.04,52636.83,94.2,No,,No
+CLM00086,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Emergency,Blue Cross,2024-05-13,6,28308.36,24641.29,87.0,No,,No
+CLM00087,H009,Dallas Medical Center,Dallas,TX,For-Profit,Cardiology,Aetna,2022-09-22,4,8852.99,7659.96,86.5,No,,No
+CLM00088,H009,Dallas Medical Center,Dallas,TX,For-Profit,Emergency,Aetna,2022-01-09,20,6026.04,5374.29,89.2,No,,No
+CLM00089,H009,Dallas Medical Center,Dallas,TX,For-Profit,Orthopedics,Blue Cross,2022-12-10,4,38082.69,35410.24,93.0,Yes,Patient eligibility,No
+CLM00090,H009,Dallas Medical Center,Dallas,TX,For-Profit,Cardiology,UnitedHealth,2023-03-23,4,35567.22,31031.33,87.2,No,,Yes
+CLM00091,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Neurology,Cigna,2022-07-20,16,24330.98,22225.68,91.3,No,,No
+CLM00092,H009,Dallas Medical Center,Dallas,TX,For-Profit,Pulmonology,Medicaid,2022-05-10,14,73646.25,48431.6,65.8,No,,No
+CLM00093,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Gastroenterology,UnitedHealth,2024-06-25,5,49923.6,45729.72,91.6,No,,No
+CLM00094,H009,Dallas Medical Center,Dallas,TX,For-Profit,Emergency,Aetna,2022-07-11,8,79393.16,73594.3,92.7,No,,No
+CLM00095,H008,San Antonio Health,San Antonio,TX,Government,Pulmonology,Self-Pay,2022-01-17,21,33332.8,16627.78,49.9,No,,No
+CLM00096,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Oncology,Self-Pay,2022-12-14,4,9880.44,4787.11,48.5,No,,No
+CLM00097,H003,Chicago Health System,Chicago,IL,Non-Profit,Cardiology,Aetna,2024-06-28,20,66757.36,57845.4,86.7,No,,No
+CLM00098,H009,Dallas Medical Center,Dallas,TX,For-Profit,Emergency,Blue Cross,2022-02-21,16,53837.73,51078.22,94.9,No,,Yes
+CLM00099,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Orthopedics,Cigna,2024-03-10,21,9046.67,8393.81,92.8,No,,Yes
+CLM00100,H001,General Hospital NYC,New York,NY,Non-Profit,Cardiology,Blue Cross,2024-07-22,12,67977.98,60455.32,88.9,No,,No
+CLM00101,H003,Chicago Health System,Chicago,IL,Non-Profit,Orthopedics,Medicaid,2022-10-08,20,8093.86,5803.98,71.7,No,,No
+CLM00102,H008,San Antonio Health,San Antonio,TX,Government,Pulmonology,Blue Cross,2022-03-15,15,39874.14,36950.73,92.7,No,,No
+CLM00103,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Neurology,Blue Cross,2023-07-04,9,54851.38,49499.58,90.2,No,,No
+CLM00104,H004,Houston Care Center,Houston,TX,Government,Emergency,UnitedHealth,2024-10-25,10,31473.09,27683.33,88.0,Yes,Coding error,No
+CLM00105,H001,General Hospital NYC,New York,NY,Non-Profit,Neurology,Cigna,2022-06-21,10,42976.73,39556.45,92.0,No,,No
+CLM00106,H004,Houston Care Center,Houston,TX,Government,Neurology,Blue Cross,2022-11-10,5,58093.33,54148.38,93.2,No,,No
+CLM00107,H008,San Antonio Health,San Antonio,TX,Government,Cardiology,UnitedHealth,2022-04-26,10,31965.91,27591.09,86.3,No,,No
+CLM00108,H009,Dallas Medical Center,Dallas,TX,For-Profit,Oncology,UnitedHealth,2023-08-24,6,43399.86,38072.65,87.7,No,,No
+CLM00109,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Gastroenterology,Medicare,2024-07-12,8,40605.67,31572.12,77.8,No,,No
+CLM00110,H002,Miami Medical Center,Miami,FL,For-Profit,Gastroenterology,Aetna,2024-05-13,15,2662.21,2379.1,89.4,No,,No
+CLM00111,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Cardiology,Cigna,2022-11-21,18,21024.13,17502.64,83.3,No,,No
+CLM00112,H008,San Antonio Health,San Antonio,TX,Government,Pulmonology,Blue Cross,2022-08-04,2,55711.49,48561.9,87.2,No,,No
+CLM00113,H004,Houston Care Center,Houston,TX,Government,Neurology,Medicaid,2023-03-21,18,33951.93,22649.37,66.7,No,,No
+CLM00114,H002,Miami Medical Center,Miami,FL,For-Profit,Gastroenterology,Aetna,2022-08-28,9,52906.96,49410.09,93.4,Yes,Duplicate claim,No
+CLM00115,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Cardiology,Cigna,2022-04-28,21,32172.47,29604.13,92.0,No,,No
+CLM00116,H008,San Antonio Health,San Antonio,TX,Government,Cardiology,Cigna,2024-03-07,1,19210.84,17173.52,89.4,Yes,Duplicate claim,No
+CLM00117,H002,Miami Medical Center,Miami,FL,For-Profit,Gastroenterology,Self-Pay,2022-10-09,8,47776.35,21912.06,45.9,No,,No
+CLM00118,H003,Chicago Health System,Chicago,IL,Non-Profit,Orthopedics,UnitedHealth,2024-04-11,1,22429.63,19456.58,86.7,Yes,Duplicate claim,No
+CLM00119,H001,General Hospital NYC,New York,NY,Non-Profit,Orthopedics,Blue Cross,2024-06-19,17,5875.32,5488.56,93.4,Yes,Missing documentation,No
+CLM00120,H002,Miami Medical Center,Miami,FL,For-Profit,Emergency,UnitedHealth,2022-01-16,17,19999.4,18229.67,91.2,No,,No
+CLM00121,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Emergency,Cigna,2022-03-05,15,10514.81,9476.37,90.1,Yes,Missing documentation,No
+CLM00122,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Neurology,Cigna,2024-08-20,13,50377.95,45401.38,90.1,No,,No
+CLM00123,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Cardiology,Self-Pay,2023-04-15,21,60098.58,29164.6,48.5,No,,No
+CLM00124,H004,Houston Care Center,Houston,TX,Government,Emergency,Blue Cross,2023-05-05,4,70589.51,63521.6,90.0,No,,No
+CLM00125,H008,San Antonio Health,San Antonio,TX,Government,Cardiology,Medicare,2024-03-02,4,70952.95,55295.27,77.9,No,,No
+CLM00126,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Neurology,UnitedHealth,2024-07-02,12,29025.44,25026.41,86.2,No,,No
+CLM00127,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Neurology,Blue Cross,2023-02-28,7,30862.46,28325.31,91.8,Yes,Coding error,No
+CLM00128,H009,Dallas Medical Center,Dallas,TX,For-Profit,Oncology,Medicare,2024-10-22,14,65177.57,53928.57,82.7,No,,No
+CLM00129,H009,Dallas Medical Center,Dallas,TX,For-Profit,Cardiology,UnitedHealth,2023-05-12,9,79078.54,73776.01,93.3,Yes,Duplicate claim,No
+CLM00130,H001,General Hospital NYC,New York,NY,Non-Profit,Orthopedics,Self-Pay,2022-09-13,3,13461.5,6269.48,46.6,Yes,Missing documentation,Yes
+CLM00131,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Emergency,Blue Cross,2022-02-05,11,14643.67,13049.91,89.1,No,,No
+CLM00132,H003,Chicago Health System,Chicago,IL,Non-Profit,Gastroenterology,UnitedHealth,2023-08-09,15,5655.17,4853.03,85.8,No,,No
+CLM00133,H004,Houston Care Center,Houston,TX,Government,Gastroenterology,UnitedHealth,2024-09-10,10,11003.76,9826.26,89.3,No,,No
+CLM00134,H001,General Hospital NYC,New York,NY,Non-Profit,Orthopedics,Aetna,2023-03-10,7,83701.21,70767.55,84.5,No,,No
+CLM00135,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Cardiology,Medicare,2024-09-27,5,43031.67,34987.57,81.3,No,,No
+CLM00136,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Cardiology,Aetna,2024-06-14,1,73457.32,62014.89,84.4,No,,Yes
+CLM00137,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Emergency,Cigna,2023-10-27,13,54951.83,47200.96,85.9,Yes,Duplicate claim,No
+CLM00138,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Cardiology,Aetna,2024-05-11,19,72014.44,62244.36,86.4,No,,Yes
+CLM00139,H004,Houston Care Center,Houston,TX,Government,Oncology,Self-Pay,2023-06-24,4,15539.08,7008.88,45.1,No,,No
+CLM00140,H003,Chicago Health System,Chicago,IL,Non-Profit,Orthopedics,Medicare,2023-11-15,20,13728.09,10841.45,79.0,Yes,Missing documentation,No
+CLM00141,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Gastroenterology,UnitedHealth,2024-06-11,19,38983.59,36738.74,94.2,No,,No
+CLM00142,H003,Chicago Health System,Chicago,IL,Non-Profit,Emergency,Medicare,2023-02-15,9,40654.91,33871.17,83.3,No,,No
+CLM00143,H008,San Antonio Health,San Antonio,TX,Government,Cardiology,Medicare,2024-10-17,21,32289.59,25789.94,79.9,No,,No
+CLM00144,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Emergency,UnitedHealth,2022-11-11,2,47785.42,44401.34,92.9,No,,No
+CLM00145,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Emergency,UnitedHealth,2022-12-17,4,14096.9,12069.59,85.6,No,,No
+CLM00146,H003,Chicago Health System,Chicago,IL,Non-Profit,Cardiology,Medicaid,2023-06-13,17,60586.41,44173.47,72.9,No,,No
+CLM00147,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Gastroenterology,Blue Cross,2024-02-22,21,58187.96,50346.35,86.5,No,,Yes
+CLM00148,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Oncology,Blue Cross,2024-10-05,20,61931.76,57327.53,92.6,No,,No
+CLM00149,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Oncology,Cigna,2023-09-21,20,59823.08,51997.97,86.9,No,,Yes
+CLM00150,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Gastroenterology,Medicaid,2023-01-10,17,57454.72,40959.23,71.3,Yes,Coding error,No
+CLM00151,H003,Chicago Health System,Chicago,IL,Non-Profit,Orthopedics,Blue Cross,2022-05-17,8,80630.3,73262.88,90.9,No,,No
+CLM00152,H009,Dallas Medical Center,Dallas,TX,For-Profit,Gastroenterology,Cigna,2023-10-05,11,75287.46,62772.78,83.4,No,,No
+CLM00153,H003,Chicago Health System,Chicago,IL,Non-Profit,Orthopedics,Self-Pay,2024-06-24,6,59352.61,27449.04,46.2,No,,Yes
+CLM00154,H004,Houston Care Center,Houston,TX,Government,Emergency,UnitedHealth,2022-08-12,15,25291.48,23390.92,92.5,No,,No
+CLM00155,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Emergency,Aetna,2024-04-05,17,65748.12,60344.44,91.8,No,,No
+CLM00156,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Cardiology,Cigna,2023-02-03,4,41629.32,36097.67,86.7,No,,No
+CLM00157,H003,Chicago Health System,Chicago,IL,Non-Profit,Oncology,Aetna,2022-06-14,14,77093.07,65894.13,85.5,Yes,Prior authorization required,No
+CLM00158,H001,General Hospital NYC,New York,NY,Non-Profit,Emergency,UnitedHealth,2024-02-21,3,32725.78,29080.67,88.9,No,,Yes
+CLM00159,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Gastroenterology,Medicaid,2023-12-15,16,12989.57,8556.07,65.9,No,,No
+CLM00160,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Cardiology,Medicare,2023-09-04,5,3086.82,2443.42,79.2,No,,No
+CLM00161,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Orthopedics,Blue Cross,2023-02-20,21,11674.34,10318.29,88.4,No,,No
+CLM00162,H009,Dallas Medical Center,Dallas,TX,For-Profit,Cardiology,Cigna,2022-06-19,5,44533.87,38040.56,85.4,No,,Yes
+CLM00163,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Orthopedics,Cigna,2024-09-01,12,57295.94,50554.98,88.2,Yes,Patient eligibility,No
+CLM00164,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Gastroenterology,Aetna,2023-02-08,12,5135.12,4512.17,87.9,No,,Yes
+CLM00165,H002,Miami Medical Center,Miami,FL,For-Profit,Gastroenterology,UnitedHealth,2022-11-27,2,62888.11,55546.04,88.3,No,,No
+CLM00166,H008,San Antonio Health,San Antonio,TX,Government,Pulmonology,Aetna,2023-01-07,3,54249.94,49972.32,92.1,No,,No
+CLM00167,H001,General Hospital NYC,New York,NY,Non-Profit,Gastroenterology,Medicaid,2023-09-09,10,75463.5,49923.6,66.2,No,,No
+CLM00168,H001,General Hospital NYC,New York,NY,Non-Profit,Gastroenterology,Cigna,2023-02-14,2,17457.14,15112.6,86.6,No,,No
+CLM00169,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Pulmonology,Aetna,2023-09-26,6,76202.23,66956.19,87.9,No,,No
+CLM00170,H002,Miami Medical Center,Miami,FL,For-Profit,Pulmonology,Aetna,2023-02-22,6,8090.41,7283.35,90.0,No,,No
+CLM00171,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Oncology,Aetna,2024-06-14,15,51818.91,45735.97,88.3,No,,Yes
+CLM00172,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Pulmonology,Self-Pay,2024-12-06,21,80650.02,32865.22,40.8,No,,No
+CLM00173,H001,General Hospital NYC,New York,NY,Non-Profit,Orthopedics,Self-Pay,2023-06-13,2,52232.34,24973.91,47.8,Yes,Prior authorization required,No
+CLM00174,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Cardiology,UnitedHealth,2022-10-17,12,14312.09,12809.21,89.5,No,,No
+CLM00175,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Emergency,Blue Cross,2024-07-04,4,55738.32,49326.25,88.5,Yes,Prior authorization required,No
+CLM00176,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Gastroenterology,Blue Cross,2022-08-04,20,60287.16,53140.54,88.1,No,,No
+CLM00177,H003,Chicago Health System,Chicago,IL,Non-Profit,Gastroenterology,Medicare,2024-06-12,15,39245.56,33746.0,86.0,No,,No
+CLM00178,H002,Miami Medical Center,Miami,FL,For-Profit,Neurology,UnitedHealth,2022-11-26,6,25745.25,22655.71,88.0,No,,No
+CLM00179,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Neurology,Medicaid,2024-06-19,5,11633.76,7563.08,65.0,No,,No
+CLM00180,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Emergency,Self-Pay,2023-12-17,3,83581.5,34517.25,41.3,Yes,Coding error,No
+CLM00181,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Gastroenterology,Aetna,2024-11-12,11,70248.84,59527.12,84.7,No,,No
+CLM00182,H003,Chicago Health System,Chicago,IL,Non-Profit,Gastroenterology,Self-Pay,2022-01-17,5,47533.84,21807.51,45.9,No,,No
+CLM00183,H003,Chicago Health System,Chicago,IL,Non-Profit,Oncology,Medicaid,2022-05-09,8,15024.24,10869.64,72.3,No,,No
+CLM00184,H004,Houston Care Center,Houston,TX,Government,Pulmonology,UnitedHealth,2024-03-19,20,24416.66,22280.26,91.3,No,,No
+CLM00185,H003,Chicago Health System,Chicago,IL,Non-Profit,Orthopedics,Cigna,2022-01-02,11,53644.01,49363.22,92.0,No,,No
+CLM00186,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Oncology,Cigna,2024-11-10,20,19102.5,16948.0,88.7,No,,No
+CLM00187,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Emergency,Medicaid,2023-03-14,10,68691.46,47980.92,69.8,No,,No
+CLM00188,H008,San Antonio Health,San Antonio,TX,Government,Emergency,Medicaid,2022-07-25,11,29906.08,19270.49,64.4,No,,No
+CLM00189,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Neurology,UnitedHealth,2022-02-10,4,10366.36,9062.0,87.4,No,,No
+CLM00190,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Gastroenterology,UnitedHealth,2023-12-07,6,36414.25,34457.66,94.6,No,,No
+CLM00191,H003,Chicago Health System,Chicago,IL,Non-Profit,Emergency,UnitedHealth,2022-04-19,16,40479.06,37965.62,93.8,Yes,Coding error,No
+CLM00192,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Cardiology,Medicare,2022-01-14,21,24993.25,20738.2,83.0,No,,No
+CLM00193,H003,Chicago Health System,Chicago,IL,Non-Profit,Oncology,Cigna,2023-04-18,2,32042.43,27887.34,87.0,No,,No
+CLM00194,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Cardiology,Aetna,2022-10-05,9,43605.34,39961.7,91.6,No,,No
+CLM00195,H002,Miami Medical Center,Miami,FL,For-Profit,Emergency,Blue Cross,2023-09-17,12,67873.92,60673.08,89.4,No,,No
+CLM00196,H001,General Hospital NYC,New York,NY,Non-Profit,Cardiology,Medicare,2022-09-11,16,12942.54,10396.8,80.3,No,,No
+CLM00197,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Oncology,Medicaid,2024-09-16,10,34311.71,23731.7,69.2,No,,No
+CLM00198,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Oncology,Aetna,2024-12-21,4,69615.03,61040.95,87.7,No,,No
+CLM00199,H001,General Hospital NYC,New York,NY,Non-Profit,Neurology,Aetna,2023-10-06,19,23671.79,21436.2,90.6,No,,No
+CLM00200,H009,Dallas Medical Center,Dallas,TX,For-Profit,Pulmonology,Cigna,2024-10-04,5,53247.94,48674.83,91.4,No,,No
+CLM00201,H004,Houston Care Center,Houston,TX,Government,Cardiology,Aetna,2024-08-24,7,27693.32,23681.75,85.5,No,,No
+CLM00202,H001,General Hospital NYC,New York,NY,Non-Profit,Pulmonology,Medicaid,2023-03-18,16,44810.05,30743.67,68.6,No,,No
+CLM00203,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Neurology,Blue Cross,2022-08-08,21,57935.03,54850.88,94.7,No,,No
+CLM00204,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Neurology,Blue Cross,2024-12-16,10,20276.4,19410.42,95.7,No,,No
+CLM00205,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Emergency,Blue Cross,2023-09-13,9,48300.71,46052.24,95.3,No,,No
+CLM00206,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Gastroenterology,Self-Pay,2024-05-16,3,13730.76,5550.06,40.4,No,,No
+CLM00207,H004,Houston Care Center,Houston,TX,Government,Orthopedics,Self-Pay,2022-04-02,9,46471.26,22924.38,49.3,Yes,Patient eligibility,No
+CLM00208,H009,Dallas Medical Center,Dallas,TX,For-Profit,Orthopedics,Cigna,2022-03-18,11,20941.85,17591.57,84.0,No,,Yes
+CLM00209,H003,Chicago Health System,Chicago,IL,Non-Profit,Emergency,Cigna,2023-05-10,16,79575.18,73037.28,91.8,No,,No
+CLM00210,H001,General Hospital NYC,New York,NY,Non-Profit,Gastroenterology,Medicare,2022-03-27,2,55966.94,44394.21,79.3,No,,No
+CLM00211,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Gastroenterology,Aetna,2024-10-04,10,17057.02,15605.47,91.5,No,,Yes
+CLM00212,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Oncology,Aetna,2023-09-09,16,84089.81,75204.04,89.4,No,,No
+CLM00213,H004,Houston Care Center,Houston,TX,Government,Gastroenterology,Medicare,2023-12-26,21,29112.12,24544.78,84.3,No,,No
+CLM00214,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Neurology,Cigna,2023-09-03,21,64733.11,54864.51,84.8,No,,No
+CLM00215,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Pulmonology,Medicare,2022-07-15,11,16929.23,13273.55,78.4,No,,Yes
+CLM00216,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Oncology,Blue Cross,2024-01-04,9,50135.47,45988.65,91.7,No,,No
+CLM00217,H008,San Antonio Health,San Antonio,TX,Government,Oncology,Medicaid,2023-05-20,10,35352.29,24048.47,68.0,No,,No
+CLM00218,H004,Houston Care Center,Houston,TX,Government,Orthopedics,Medicaid,2024-08-26,20,41428.19,27984.65,67.5,No,,No
+CLM00219,H004,Houston Care Center,Houston,TX,Government,Gastroenterology,Medicaid,2022-06-19,3,58308.55,40208.49,69.0,No,,No
+CLM00220,H002,Miami Medical Center,Miami,FL,For-Profit,Cardiology,Self-Pay,2023-09-04,19,47228.71,21278.83,45.1,No,,No
+CLM00221,H004,Houston Care Center,Houston,TX,Government,Pulmonology,UnitedHealth,2023-09-15,15,42317.14,39773.41,94.0,No,,No
+CLM00222,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Cardiology,UnitedHealth,2022-12-19,1,40108.59,37328.73,93.1,No,,No
+CLM00223,H002,Miami Medical Center,Miami,FL,For-Profit,Cardiology,Aetna,2022-08-10,2,30268.16,25618.24,84.6,No,,Yes
+CLM00224,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Orthopedics,Self-Pay,2023-07-28,21,12808.31,5945.01,46.4,No,,No
+CLM00225,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Emergency,Medicare,2023-09-17,18,58507.98,48923.16,83.6,Yes,Duplicate claim,Yes
+CLM00226,H003,Chicago Health System,Chicago,IL,Non-Profit,Pulmonology,Medicaid,2024-07-13,10,71207.6,50245.36,70.6,No,,No
+CLM00227,H004,Houston Care Center,Houston,TX,Government,Orthopedics,Aetna,2022-01-07,4,30404.34,26377.74,86.8,Yes,Coding error,No
+CLM00228,H002,Miami Medical Center,Miami,FL,For-Profit,Cardiology,UnitedHealth,2022-08-18,2,4303.62,3915.34,91.0,No,,Yes
+CLM00229,H004,Houston Care Center,Houston,TX,Government,Gastroenterology,Self-Pay,2023-10-19,10,66301.31,27449.64,41.4,No,,No
+CLM00230,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Gastroenterology,Cigna,2023-07-09,5,69834.94,59617.42,85.4,No,,No
+CLM00231,H001,General Hospital NYC,New York,NY,Non-Profit,Neurology,UnitedHealth,2023-01-21,21,74956.11,70545.53,94.1,No,,No
+CLM00232,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Gastroenterology,UnitedHealth,2023-09-08,5,28114.33,25067.65,89.2,No,,No
+CLM00233,H004,Houston Care Center,Houston,TX,Government,Oncology,Self-Pay,2024-09-05,2,60582.66,29114.67,48.1,No,,No
+CLM00234,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Orthopedics,Blue Cross,2022-12-02,15,18478.62,17086.64,92.5,No,,Yes
+CLM00235,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Emergency,Cigna,2024-12-18,3,52014.95,43378.11,83.4,No,,No
+CLM00236,H004,Houston Care Center,Houston,TX,Government,Emergency,Medicaid,2022-12-24,1,74101.07,49150.98,66.3,No,,No
+CLM00237,H008,San Antonio Health,San Antonio,TX,Government,Orthopedics,Cigna,2023-07-18,8,51967.53,44195.85,85.0,No,,No
+CLM00238,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Oncology,Blue Cross,2022-06-12,15,31530.33,29899.62,94.8,Yes,Coding error,No
+CLM00239,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Emergency,Medicare,2024-10-14,5,48470.81,38395.06,79.2,Yes,Patient eligibility,No
+CLM00240,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Orthopedics,Medicaid,2023-11-09,8,29043.75,19400.76,66.8,No,,No
+CLM00241,H008,San Antonio Health,San Antonio,TX,Government,Pulmonology,Cigna,2024-09-02,12,63256.11,55417.6,87.6,Yes,Patient eligibility,No
+CLM00242,H009,Dallas Medical Center,Dallas,TX,For-Profit,Cardiology,Self-Pay,2022-11-03,2,72199.23,35703.88,49.5,No,,No
+CLM00243,H003,Chicago Health System,Chicago,IL,Non-Profit,Cardiology,Medicaid,2024-08-16,20,43728.7,29181.04,66.7,No,,No
+CLM00244,H001,General Hospital NYC,New York,NY,Non-Profit,Cardiology,UnitedHealth,2022-05-17,17,47562.24,40484.27,85.1,No,,No
+CLM00245,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Gastroenterology,Medicaid,2023-05-09,5,10435.87,6675.11,64.0,No,,No
+CLM00246,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Cardiology,Blue Cross,2022-11-21,8,81601.37,73922.66,90.6,No,,No
+CLM00247,H001,General Hospital NYC,New York,NY,Non-Profit,Cardiology,Aetna,2023-02-28,2,33168.55,29694.81,89.5,No,,No
+CLM00248,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Pulmonology,Self-Pay,2022-04-28,4,29161.1,14514.44,49.8,No,,No
+CLM00249,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Emergency,Blue Cross,2022-01-28,9,5387.92,4673.67,86.7,No,,No
+CLM00250,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Cardiology,Medicaid,2022-10-19,13,50517.51,35626.23,70.5,No,,No
+CLM00251,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Pulmonology,UnitedHealth,2024-02-24,5,29199.44,27025.86,92.6,No,,No
+CLM00252,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Cardiology,Medicare,2023-10-25,11,37996.87,32444.29,85.4,No,,No
+CLM00253,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Cardiology,Cigna,2023-07-06,16,24322.81,22602.18,92.9,No,,No
+CLM00254,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Pulmonology,Aetna,2023-03-23,8,8655.46,7806.03,90.2,No,,Yes
+CLM00255,H003,Chicago Health System,Chicago,IL,Non-Profit,Pulmonology,Aetna,2022-05-05,1,27942.63,23769.54,85.1,No,,No
+CLM00256,H002,Miami Medical Center,Miami,FL,For-Profit,Orthopedics,Aetna,2024-02-20,14,38978.45,34904.19,89.5,Yes,Missing documentation,No
+CLM00257,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Gastroenterology,Aetna,2024-04-17,3,2530.44,2230.28,88.1,No,,No
+CLM00258,H003,Chicago Health System,Chicago,IL,Non-Profit,Pulmonology,Aetna,2023-07-14,9,15653.4,13569.81,86.7,No,,Yes
+CLM00259,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Emergency,Self-Pay,2022-10-15,8,7922.93,3368.59,42.5,No,,No
+CLM00260,H002,Miami Medical Center,Miami,FL,For-Profit,Orthopedics,Blue Cross,2023-08-14,20,2065.08,1857.68,90.0,No,,No
+CLM00261,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Orthopedics,Blue Cross,2023-07-10,7,28275.54,26995.45,95.5,No,,No
+CLM00262,H008,San Antonio Health,San Antonio,TX,Government,Neurology,Self-Pay,2024-04-18,13,21742.43,9514.61,43.8,No,,No
+CLM00263,H003,Chicago Health System,Chicago,IL,Non-Profit,Pulmonology,Self-Pay,2024-05-03,15,47433.28,23493.73,49.5,No,,No
+CLM00264,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Pulmonology,Aetna,2022-07-15,9,13121.46,11419.39,87.0,No,,No
+CLM00265,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Emergency,UnitedHealth,2024-06-26,14,34967.23,31493.63,90.1,No,,No
+CLM00266,H009,Dallas Medical Center,Dallas,TX,For-Profit,Neurology,Cigna,2024-11-02,8,77852.5,65469.04,84.1,No,,No
+CLM00267,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Pulmonology,Cigna,2022-01-09,11,55503.09,51433.67,92.7,No,,No
+CLM00268,H004,Houston Care Center,Houston,TX,Government,Neurology,Cigna,2024-08-19,19,44819.61,39802.14,88.8,No,,No
+CLM00269,H009,Dallas Medical Center,Dallas,TX,For-Profit,Orthopedics,Blue Cross,2024-02-05,10,84808.18,77029.33,90.8,No,,No
+CLM00270,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Oncology,Blue Cross,2024-12-15,16,39520.28,34804.99,88.1,No,,Yes
+CLM00271,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Cardiology,Blue Cross,2022-11-24,1,5231.03,4870.5,93.1,No,,No
+CLM00272,H004,Houston Care Center,Houston,TX,Government,Neurology,Medicaid,2024-07-06,14,47584.51,31553.24,66.3,No,,No
+CLM00273,H003,Chicago Health System,Chicago,IL,Non-Profit,Pulmonology,Cigna,2023-07-01,20,37583.23,31303.79,83.3,No,,No
+CLM00274,H004,Houston Care Center,Houston,TX,Government,Orthopedics,Blue Cross,2022-09-12,3,64319.18,60516.18,94.1,No,,No
+CLM00275,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Orthopedics,Aetna,2023-10-20,16,11015.24,9991.6,90.7,No,,No
+CLM00276,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Neurology,Medicare,2022-10-22,20,30551.71,26108.02,85.5,Yes,Duplicate claim,No
+CLM00277,H003,Chicago Health System,Chicago,IL,Non-Profit,Oncology,Medicare,2024-07-05,12,21420.82,16744.55,78.2,No,,No
+CLM00278,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Emergency,Aetna,2023-03-10,21,17010.43,15369.78,90.4,No,,No
+CLM00279,H003,Chicago Health System,Chicago,IL,Non-Profit,Orthopedics,Blue Cross,2023-04-18,12,71805.77,66200.68,92.2,No,,No
+CLM00280,H009,Dallas Medical Center,Dallas,TX,For-Profit,Pulmonology,Aetna,2022-01-10,15,35662.72,31710.31,88.9,No,,Yes
+CLM00281,H001,General Hospital NYC,New York,NY,Non-Profit,Oncology,Medicaid,2024-08-17,15,46390.32,30006.23,64.7,No,,No
+CLM00282,H002,Miami Medical Center,Miami,FL,For-Profit,Neurology,Medicare,2023-12-18,12,23868.72,19675.24,82.4,No,,No
+CLM00283,H004,Houston Care Center,Houston,TX,Government,Emergency,Medicare,2023-08-12,8,62955.06,52590.59,83.5,No,,No
+CLM00284,H002,Miami Medical Center,Miami,FL,For-Profit,Emergency,Self-Pay,2023-12-28,8,84495.47,40351.92,47.8,No,,No
+CLM00285,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Pulmonology,Aetna,2023-10-18,7,15359.47,13115.81,85.4,No,,No
+CLM00286,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Neurology,UnitedHealth,2024-09-27,10,15559.51,14748.86,94.8,No,,No
+CLM00287,H002,Miami Medical Center,Miami,FL,For-Profit,Orthopedics,Self-Pay,2022-03-05,9,67105.2,33007.5,49.2,No,,No
+CLM00288,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Gastroenterology,Medicaid,2023-07-03,16,65083.04,45403.46,69.8,Yes,Duplicate claim,No
+CLM00289,H002,Miami Medical Center,Miami,FL,For-Profit,Emergency,UnitedHealth,2022-10-28,12,64108.5,58945.87,91.9,No,,No
+CLM00290,H002,Miami Medical Center,Miami,FL,For-Profit,Pulmonology,Aetna,2022-07-16,3,54509.19,49588.59,91.0,No,,No
+CLM00291,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Oncology,Self-Pay,2024-06-25,5,25180.02,11450.14,45.5,No,,No
+CLM00292,H001,General Hospital NYC,New York,NY,Non-Profit,Cardiology,Medicare,2023-01-07,1,53785.99,45915.5,85.4,Yes,Prior authorization required,No
+CLM00293,H003,Chicago Health System,Chicago,IL,Non-Profit,Pulmonology,Blue Cross,2024-06-21,9,14774.62,14084.24,95.3,Yes,Duplicate claim,No
+CLM00294,H003,Chicago Health System,Chicago,IL,Non-Profit,Cardiology,Aetna,2022-02-07,8,53737.96,49041.2,91.3,No,,Yes
+CLM00295,H008,San Antonio Health,San Antonio,TX,Government,Cardiology,Medicaid,2024-07-05,15,51072.24,34828.43,68.2,Yes,Duplicate claim,No
+CLM00296,H008,San Antonio Health,San Antonio,TX,Government,Cardiology,Medicaid,2023-03-25,4,33486.34,23543.45,70.3,Yes,Duplicate claim,No
+CLM00297,H003,Chicago Health System,Chicago,IL,Non-Profit,Pulmonology,Cigna,2024-06-07,1,13428.23,11857.81,88.3,No,,No
+CLM00298,H003,Chicago Health System,Chicago,IL,Non-Profit,Emergency,UnitedHealth,2024-02-24,3,58828.28,55063.05,93.6,No,,No
+CLM00299,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Oncology,Aetna,2024-10-24,9,27761.06,23707.47,85.4,No,,No
+CLM00300,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Oncology,Self-Pay,2024-04-13,10,80096.82,32253.58,40.3,No,,No
+CLM00301,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Pulmonology,Medicare,2024-08-20,8,66947.43,56863.66,84.9,No,,Yes
+CLM00302,H002,Miami Medical Center,Miami,FL,For-Profit,Neurology,Medicare,2023-07-18,5,83904.69,72442.68,86.3,No,,No
+CLM00303,H003,Chicago Health System,Chicago,IL,Non-Profit,Gastroenterology,Aetna,2022-04-02,1,81196.82,74460.46,91.7,No,,Yes
+CLM00304,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Neurology,Blue Cross,2024-11-18,14,53985.65,49132.6,91.0,No,,No
+CLM00305,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Orthopedics,Blue Cross,2023-06-19,7,8480.36,7360.12,86.8,No,,No
+CLM00306,H002,Miami Medical Center,Miami,FL,For-Profit,Oncology,Cigna,2023-02-20,8,38030.08,35190.86,92.5,Yes,Missing documentation,No
+CLM00307,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Cardiology,Blue Cross,2023-03-12,6,57117.64,52879.81,92.6,Yes,Prior authorization required,No
+CLM00308,H009,Dallas Medical Center,Dallas,TX,For-Profit,Neurology,Self-Pay,2022-02-11,12,70179.32,29891.11,42.6,Yes,Duplicate claim,No
+CLM00309,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Oncology,UnitedHealth,2023-09-02,19,6833.31,6295.07,92.1,No,,No
+CLM00310,H008,San Antonio Health,San Antonio,TX,Government,Gastroenterology,UnitedHealth,2022-02-24,4,15434.6,13362.21,86.6,No,,No
+CLM00311,H009,Dallas Medical Center,Dallas,TX,For-Profit,Cardiology,Medicare,2022-03-28,2,73200.53,56454.36,77.1,No,,No
+CLM00312,H001,General Hospital NYC,New York,NY,Non-Profit,Neurology,Self-Pay,2023-12-09,14,77814.63,36889.32,47.4,No,,No
+CLM00313,H002,Miami Medical Center,Miami,FL,For-Profit,Neurology,Blue Cross,2022-07-15,2,11469.98,10636.49,92.7,Yes,Patient eligibility,No
+CLM00314,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Gastroenterology,Self-Pay,2024-05-20,15,27443.26,11214.37,40.9,Yes,Prior authorization required,No
+CLM00315,H004,Houston Care Center,Houston,TX,Government,Emergency,Blue Cross,2022-04-01,7,50906.19,46290.83,90.9,No,,No
+CLM00316,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Cardiology,Medicaid,2023-11-28,1,46719.02,32404.04,69.4,No,,Yes
+CLM00317,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Cardiology,Medicaid,2024-03-09,16,45739.51,29905.26,65.4,No,,No
+CLM00318,H002,Miami Medical Center,Miami,FL,For-Profit,Cardiology,Medicaid,2022-10-17,12,76423.5,52118.99,68.2,No,,No
+CLM00319,H003,Chicago Health System,Chicago,IL,Non-Profit,Pulmonology,Self-Pay,2023-04-09,2,34428.33,15809.13,45.9,No,,No
+CLM00320,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Gastroenterology,Aetna,2022-04-25,11,60010.59,54821.79,91.4,No,,No
+CLM00321,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Cardiology,Medicaid,2023-04-10,11,10322.42,6967.19,67.5,No,,No
+CLM00322,H008,San Antonio Health,San Antonio,TX,Government,Oncology,Self-Pay,2022-01-27,10,11512.78,4786.57,41.6,No,,No
+CLM00323,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Orthopedics,Medicare,2022-05-01,13,60881.64,52774.64,86.7,No,,No
+CLM00324,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Gastroenterology,Aetna,2022-03-01,4,47922.14,42890.89,89.5,No,,No
+CLM00325,H001,General Hospital NYC,New York,NY,Non-Profit,Gastroenterology,Self-Pay,2022-11-19,13,83544.36,34509.8,41.3,No,,No
+CLM00326,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Oncology,Self-Pay,2022-03-28,7,7761.43,3878.51,50.0,No,,No
+CLM00327,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Cardiology,Medicare,2022-08-13,19,80180.44,62144.95,77.5,No,,No
+CLM00328,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Orthopedics,Blue Cross,2024-10-20,9,19428.79,17072.37,87.9,No,,No
+CLM00329,H004,Houston Care Center,Houston,TX,Government,Pulmonology,Blue Cross,2022-07-21,16,43157.45,40925.25,94.8,Yes,Duplicate claim,No
+CLM00330,H009,Dallas Medical Center,Dallas,TX,For-Profit,Orthopedics,Cigna,2023-06-18,1,84506.29,74734.46,88.4,No,,No
+CLM00331,H008,San Antonio Health,San Antonio,TX,Government,Oncology,UnitedHealth,2022-05-26,6,43449.84,38619.87,88.9,Yes,Patient eligibility,No
+CLM00332,H008,San Antonio Health,San Antonio,TX,Government,Neurology,Blue Cross,2022-12-25,6,65531.32,62907.48,96.0,Yes,Prior authorization required,No
+CLM00333,H004,Houston Care Center,Houston,TX,Government,Neurology,Self-Pay,2024-12-12,6,83552.5,36666.37,43.9,Yes,Patient eligibility,No
+CLM00334,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Cardiology,Cigna,2024-08-10,19,59996.83,55482.42,92.5,Yes,Prior authorization required,No
+CLM00335,H003,Chicago Health System,Chicago,IL,Non-Profit,Emergency,Medicare,2022-10-26,8,9036.49,7168.31,79.3,Yes,Coding error,Yes
+CLM00336,H003,Chicago Health System,Chicago,IL,Non-Profit,Oncology,Cigna,2022-03-28,11,16317.9,14853.25,91.0,Yes,Prior authorization required,No
+CLM00337,H009,Dallas Medical Center,Dallas,TX,For-Profit,Gastroenterology,Blue Cross,2022-06-06,13,81706.66,73320.21,89.7,No,,No
+CLM00338,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Gastroenterology,Cigna,2023-10-08,6,81715.29,73128.49,89.5,No,,No
+CLM00339,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Gastroenterology,Medicaid,2023-10-28,10,33095.07,23279.06,70.3,Yes,Missing documentation,No
+CLM00340,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Cardiology,Medicaid,2022-08-11,20,51799.45,37404.58,72.2,No,,No
+CLM00341,H002,Miami Medical Center,Miami,FL,For-Profit,Orthopedics,Blue Cross,2023-12-15,3,83528.7,73237.02,87.7,No,,No
+CLM00342,H001,General Hospital NYC,New York,NY,Non-Profit,Oncology,Medicaid,2023-01-15,9,22336.66,14223.53,63.7,No,,No
+CLM00343,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Orthopedics,Aetna,2024-10-25,18,42672.35,37460.83,87.8,No,,No
+CLM00344,H004,Houston Care Center,Houston,TX,Government,Orthopedics,Aetna,2023-02-06,10,7654.73,7077.38,92.5,Yes,Duplicate claim,No
+CLM00345,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Orthopedics,Cigna,2024-08-01,3,7762.7,7174.16,92.4,No,,No
+CLM00346,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Pulmonology,Medicaid,2024-07-18,2,52211.02,35159.95,67.3,Yes,Prior authorization required,No
+CLM00347,H009,Dallas Medical Center,Dallas,TX,For-Profit,Oncology,Cigna,2022-08-02,2,25007.18,21350.0,85.4,No,,No
+CLM00348,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Cardiology,Aetna,2022-01-06,21,8816.97,8132.68,92.2,No,,No
+CLM00349,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Cardiology,Aetna,2022-05-21,13,71954.72,62660.71,87.1,No,,No
+CLM00350,H009,Dallas Medical Center,Dallas,TX,For-Profit,Emergency,Medicaid,2023-08-08,6,32480.21,21701.47,66.8,No,,No
+CLM00351,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Neurology,Medicare,2024-07-08,4,14119.41,11855.32,84.0,Yes,Duplicate claim,No
+CLM00352,H009,Dallas Medical Center,Dallas,TX,For-Profit,Cardiology,Self-Pay,2022-10-16,18,33823.36,15296.89,45.2,No,,No
+CLM00353,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Cardiology,Aetna,2024-10-20,17,76881.9,70072.51,91.1,No,,No
+CLM00354,H003,Chicago Health System,Chicago,IL,Non-Profit,Cardiology,Self-Pay,2022-03-14,6,38994.82,19298.78,49.5,No,,No
+CLM00355,H002,Miami Medical Center,Miami,FL,For-Profit,Pulmonology,Aetna,2022-12-03,5,18360.26,16932.87,92.2,No,,No
+CLM00356,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Neurology,Aetna,2024-12-19,17,47596.52,44058.31,92.6,No,,No
+CLM00357,H009,Dallas Medical Center,Dallas,TX,For-Profit,Gastroenterology,Aetna,2022-02-19,19,10895.32,9315.11,85.5,No,,No
+CLM00358,H002,Miami Medical Center,Miami,FL,For-Profit,Gastroenterology,Blue Cross,2024-10-16,14,73934.18,70090.61,94.8,No,,No
+CLM00359,H001,General Hospital NYC,New York,NY,Non-Profit,Orthopedics,Blue Cross,2024-01-16,13,35148.33,32400.59,92.2,Yes,Duplicate claim,No
+CLM00360,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Oncology,Medicare,2024-12-04,10,29711.82,25236.19,84.9,No,,No
+CLM00361,H004,Houston Care Center,Houston,TX,Government,Orthopedics,Blue Cross,2022-11-07,11,82847.32,74919.75,90.4,No,,No
+CLM00362,H008,San Antonio Health,San Antonio,TX,Government,Orthopedics,Self-Pay,2022-09-03,17,35498.73,15919.26,44.8,No,,No
+CLM00363,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Pulmonology,UnitedHealth,2022-04-27,17,35182.66,32651.33,92.8,No,,Yes
+CLM00364,H001,General Hospital NYC,New York,NY,Non-Profit,Orthopedics,Medicare,2023-09-21,7,39613.46,34139.0,86.2,No,,No
+CLM00365,H002,Miami Medical Center,Miami,FL,For-Profit,Pulmonology,Medicare,2023-06-06,15,21701.83,17771.17,81.9,Yes,Coding error,No
+CLM00366,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Pulmonology,Self-Pay,2022-04-21,13,59019.02,25290.06,42.9,Yes,Patient eligibility,No
+CLM00367,H004,Houston Care Center,Houston,TX,Government,Pulmonology,Medicaid,2022-11-16,1,23968.48,16081.67,67.1,No,,No
+CLM00368,H003,Chicago Health System,Chicago,IL,Non-Profit,Pulmonology,Medicaid,2024-12-21,9,51695.35,32611.82,63.1,No,,No
+CLM00369,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Emergency,Aetna,2023-10-19,7,72607.45,64322.93,88.6,No,,No
+CLM00370,H002,Miami Medical Center,Miami,FL,For-Profit,Cardiology,UnitedHealth,2023-05-22,12,84952.35,80420.02,94.7,No,,No
+CLM00371,H002,Miami Medical Center,Miami,FL,For-Profit,Emergency,Medicare,2024-12-10,11,29579.69,23594.19,79.8,No,,No
+CLM00372,H004,Houston Care Center,Houston,TX,Government,Orthopedics,UnitedHealth,2024-03-01,20,65417.11,61490.04,94.0,No,,No
+CLM00373,H008,San Antonio Health,San Antonio,TX,Government,Oncology,Blue Cross,2023-04-24,2,77227.12,69539.92,90.0,No,,No
+CLM00374,H004,Houston Care Center,Houston,TX,Government,Pulmonology,UnitedHealth,2024-11-06,12,54799.18,49186.29,89.8,No,,No
+CLM00375,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Cardiology,Aetna,2023-11-21,18,12183.34,10549.13,86.6,No,,No
+CLM00376,H002,Miami Medical Center,Miami,FL,For-Profit,Orthopedics,Blue Cross,2024-05-10,14,20147.88,19082.93,94.7,No,,No
+CLM00377,H008,San Antonio Health,San Antonio,TX,Government,Gastroenterology,Medicare,2022-08-17,19,40789.8,34942.15,85.7,No,,No
+CLM00378,H002,Miami Medical Center,Miami,FL,For-Profit,Gastroenterology,Cigna,2023-04-14,2,33369.38,28692.18,86.0,No,,No
+CLM00379,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Emergency,Medicaid,2023-03-21,3,27918.02,19586.36,70.2,No,,No
+CLM00380,H001,General Hospital NYC,New York,NY,Non-Profit,Cardiology,Aetna,2022-02-20,6,24339.58,22297.96,91.6,No,,No
+CLM00381,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Pulmonology,Aetna,2022-06-11,13,35183.36,32950.37,93.7,Yes,Patient eligibility,No
+CLM00382,H009,Dallas Medical Center,Dallas,TX,For-Profit,Orthopedics,Medicare,2022-05-04,8,58008.47,48301.84,83.3,No,,No
+CLM00383,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Neurology,UnitedHealth,2024-12-20,2,27060.61,23178.19,85.7,No,,No
+CLM00384,H009,Dallas Medical Center,Dallas,TX,For-Profit,Oncology,Aetna,2022-04-26,11,75645.83,71072.83,94.0,No,,No
+CLM00385,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Cardiology,Medicaid,2022-03-12,7,20230.83,14737.92,72.8,No,,No
+CLM00386,H001,General Hospital NYC,New York,NY,Non-Profit,Emergency,Cigna,2024-02-27,2,22858.4,20194.79,88.3,No,,Yes
+CLM00387,H001,General Hospital NYC,New York,NY,Non-Profit,Cardiology,Cigna,2022-03-23,4,11168.45,9766.04,87.4,No,,No
+CLM00388,H001,General Hospital NYC,New York,NY,Non-Profit,Oncology,Aetna,2022-07-17,9,56748.99,51428.68,90.6,No,,No
+CLM00389,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Cardiology,Blue Cross,2022-09-12,7,11020.05,9594.35,87.1,No,,No
+CLM00390,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Oncology,Medicaid,2022-04-01,7,4790.38,3255.71,68.0,No,,No
+CLM00391,H002,Miami Medical Center,Miami,FL,For-Profit,Cardiology,Self-Pay,2022-12-09,3,49441.76,22219.64,44.9,No,,Yes
+CLM00392,H004,Houston Care Center,Houston,TX,Government,Emergency,Blue Cross,2024-06-11,6,23554.44,20374.78,86.5,No,,No
+CLM00393,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Pulmonology,Medicare,2023-03-12,2,9432.37,7978.09,84.6,Yes,Prior authorization required,No
+CLM00394,H008,San Antonio Health,San Antonio,TX,Government,Neurology,Blue Cross,2023-08-27,11,74852.71,65069.1,86.9,No,,No
+CLM00395,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Pulmonology,Self-Pay,2022-03-14,6,41433.46,18320.8,44.2,Yes,Missing documentation,No
+CLM00396,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Emergency,Self-Pay,2024-01-27,20,49006.78,21750.01,44.4,No,,No
+CLM00397,H003,Chicago Health System,Chicago,IL,Non-Profit,Emergency,Aetna,2024-11-25,2,10930.28,9630.98,88.1,Yes,Duplicate claim,Yes
+CLM00398,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Pulmonology,UnitedHealth,2022-10-14,11,20202.74,19103.23,94.6,No,,No
+CLM00399,H004,Houston Care Center,Houston,TX,Government,Emergency,Blue Cross,2022-10-01,5,56919.84,52601.93,92.4,No,,No
+CLM00400,H003,Chicago Health System,Chicago,IL,Non-Profit,Neurology,Self-Pay,2023-06-02,6,40685.63,18291.59,45.0,Yes,Coding error,No
+CLM00401,H009,Dallas Medical Center,Dallas,TX,For-Profit,Orthopedics,UnitedHealth,2022-08-28,8,55217.0,49161.22,89.0,Yes,Coding error,No
+CLM00402,H008,San Antonio Health,San Antonio,TX,Government,Emergency,Blue Cross,2024-09-01,21,11412.02,10381.94,91.0,Yes,Coding error,No
+CLM00403,H002,Miami Medical Center,Miami,FL,For-Profit,Gastroenterology,UnitedHealth,2023-08-12,17,81924.8,74859.1,91.4,No,,No
+CLM00404,H001,General Hospital NYC,New York,NY,Non-Profit,Gastroenterology,Medicaid,2024-06-15,20,72000.51,47750.54,66.3,No,,No
+CLM00405,H002,Miami Medical Center,Miami,FL,For-Profit,Cardiology,Self-Pay,2024-05-17,12,56519.01,22620.02,40.0,No,,No
+CLM00406,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Pulmonology,Medicare,2022-07-09,5,5322.47,4185.67,78.6,No,,No
+CLM00407,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Orthopedics,Medicaid,2023-12-04,7,11582.27,8283.86,71.5,No,,No
+CLM00408,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Cardiology,Cigna,2022-09-16,15,71428.43,63491.38,88.9,No,,No
+CLM00409,H001,General Hospital NYC,New York,NY,Non-Profit,Neurology,Cigna,2024-03-19,19,5555.73,5130.89,92.4,No,,No
+CLM00410,H003,Chicago Health System,Chicago,IL,Non-Profit,Pulmonology,Self-Pay,2023-07-20,20,12219.88,5361.36,43.9,No,,No
+CLM00411,H004,Houston Care Center,Houston,TX,Government,Oncology,Aetna,2024-10-24,15,81960.06,76800.61,93.7,No,,No
+CLM00412,H009,Dallas Medical Center,Dallas,TX,For-Profit,Oncology,Self-Pay,2024-10-10,18,60074.77,29200.59,48.6,No,,No
+CLM00413,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Pulmonology,Medicaid,2024-06-04,6,83441.51,57992.57,69.5,No,,No
+CLM00414,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Neurology,Aetna,2023-09-28,14,50164.32,46866.89,93.4,No,,No
+CLM00415,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Gastroenterology,Medicare,2023-03-22,5,45147.95,34878.02,77.3,Yes,Missing documentation,No
+CLM00416,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Orthopedics,Self-Pay,2022-08-20,7,6679.74,3195.83,47.8,No,,Yes
+CLM00417,H009,Dallas Medical Center,Dallas,TX,For-Profit,Gastroenterology,Medicaid,2023-12-23,8,63491.46,43563.21,68.6,No,,No
+CLM00418,H001,General Hospital NYC,New York,NY,Non-Profit,Emergency,Aetna,2023-12-07,11,36283.28,33337.48,91.9,No,,Yes
+CLM00419,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Gastroenterology,Self-Pay,2023-11-25,8,73347.14,32588.6,44.4,No,,No
+CLM00420,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Neurology,Cigna,2022-11-06,7,51882.81,47089.6,90.8,No,,No
+CLM00421,H003,Chicago Health System,Chicago,IL,Non-Profit,Pulmonology,UnitedHealth,2023-10-01,9,11466.04,9792.73,85.4,No,,No
+CLM00422,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Emergency,Cigna,2024-11-27,11,79780.79,66536.7,83.4,No,,No
+CLM00423,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Emergency,Self-Pay,2022-09-26,11,49318.53,21493.44,43.6,No,,No
+CLM00424,H009,Dallas Medical Center,Dallas,TX,For-Profit,Orthopedics,Aetna,2023-06-12,12,46847.19,41241.54,88.0,No,,No
+CLM00425,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Orthopedics,Self-Pay,2022-01-22,18,53126.43,23773.32,44.7,No,,No
+CLM00426,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Emergency,Medicaid,2023-06-26,20,77025.45,53253.09,69.1,No,,Yes
+CLM00427,H002,Miami Medical Center,Miami,FL,For-Profit,Emergency,Blue Cross,2023-09-16,17,46609.82,41402.71,88.8,No,,No
+CLM00428,H001,General Hospital NYC,New York,NY,Non-Profit,Oncology,Cigna,2022-11-07,4,17574.78,15490.23,88.1,Yes,Patient eligibility,No
+CLM00429,H004,Houston Care Center,Houston,TX,Government,Gastroenterology,Cigna,2023-12-21,18,36921.49,31028.55,84.0,No,,No
+CLM00430,H002,Miami Medical Center,Miami,FL,For-Profit,Pulmonology,Cigna,2024-05-03,11,14338.51,12559.42,87.6,Yes,Missing documentation,Yes
+CLM00431,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Gastroenterology,Medicaid,2023-01-22,15,77567.38,52029.35,67.1,No,,No
+CLM00432,H002,Miami Medical Center,Miami,FL,For-Profit,Neurology,Medicare,2022-09-10,19,55058.8,45799.83,83.2,Yes,Missing documentation,No
+CLM00433,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Neurology,Medicare,2022-08-18,13,25006.71,21572.52,86.3,No,,No
+CLM00434,H004,Houston Care Center,Houston,TX,Government,Orthopedics,Cigna,2024-05-26,18,34147.88,31065.98,91.0,No,,No
+CLM00435,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Cardiology,UnitedHealth,2022-09-10,2,74543.04,64415.43,86.4,Yes,Patient eligibility,No
+CLM00436,H004,Houston Care Center,Houston,TX,Government,Pulmonology,Cigna,2022-03-06,14,76946.12,66511.08,86.4,No,,No
+CLM00437,H004,Houston Care Center,Houston,TX,Government,Neurology,Self-Pay,2023-09-21,19,22603.94,9300.67,41.1,No,,No
+CLM00438,H009,Dallas Medical Center,Dallas,TX,For-Profit,Cardiology,Blue Cross,2023-06-05,7,57585.72,50967.32,88.5,No,,No
+CLM00439,H004,Houston Care Center,Houston,TX,Government,Cardiology,Blue Cross,2023-11-23,11,53229.57,50568.72,95.0,No,,No
+CLM00440,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Orthopedics,UnitedHealth,2024-04-24,14,48832.97,45452.26,93.1,Yes,Duplicate claim,No
+CLM00441,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Oncology,Self-Pay,2023-06-16,11,31517.08,14748.67,46.8,No,,No
+CLM00442,H009,Dallas Medical Center,Dallas,TX,For-Profit,Cardiology,Medicaid,2022-09-09,9,55403.56,35358.41,63.8,No,,No
+CLM00443,H002,Miami Medical Center,Miami,FL,For-Profit,Pulmonology,Medicare,2022-10-02,21,75990.78,64968.98,85.5,Yes,Patient eligibility,No
+CLM00444,H009,Dallas Medical Center,Dallas,TX,For-Profit,Oncology,UnitedHealth,2024-04-24,21,76147.83,68835.18,90.4,No,,No
+CLM00445,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Orthopedics,Aetna,2024-10-06,12,43343.78,36801.27,84.9,No,,No
+CLM00446,H009,Dallas Medical Center,Dallas,TX,For-Profit,Orthopedics,Aetna,2024-12-16,19,14795.07,13265.79,89.7,No,,No
+CLM00447,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Cardiology,Medicaid,2024-04-26,9,65082.94,42510.55,65.3,No,,Yes
+CLM00448,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Emergency,Aetna,2024-12-21,2,78144.81,72530.51,92.8,No,,No
+CLM00449,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Gastroenterology,Cigna,2024-10-27,6,23486.89,20772.63,88.4,No,,No
+CLM00450,H002,Miami Medical Center,Miami,FL,For-Profit,Neurology,Blue Cross,2023-06-26,17,32923.45,31301.12,95.1,No,,No
+CLM00451,H008,San Antonio Health,San Antonio,TX,Government,Neurology,Medicare,2022-05-05,6,43403.39,34023.78,78.4,No,,No
+CLM00452,H003,Chicago Health System,Chicago,IL,Non-Profit,Orthopedics,Blue Cross,2023-02-22,8,51768.69,48750.34,94.2,No,,No
+CLM00453,H008,San Antonio Health,San Antonio,TX,Government,Emergency,Medicaid,2022-10-05,14,50831.04,35313.64,69.5,Yes,Missing documentation,No
+CLM00454,H009,Dallas Medical Center,Dallas,TX,For-Profit,Cardiology,UnitedHealth,2024-10-01,6,13763.24,11927.69,86.7,No,,No
+CLM00455,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Cardiology,Medicaid,2022-10-20,16,39008.48,28448.01,72.9,Yes,Coding error,No
+CLM00456,H009,Dallas Medical Center,Dallas,TX,For-Profit,Oncology,Medicaid,2023-07-05,15,61969.6,41164.37,66.4,No,,Yes
+CLM00457,H002,Miami Medical Center,Miami,FL,For-Profit,Cardiology,Medicaid,2023-03-20,14,45146.4,32547.57,72.1,No,,No
+CLM00458,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Cardiology,Self-Pay,2024-10-27,3,45874.4,21801.27,47.5,No,,No
+CLM00459,H001,General Hospital NYC,New York,NY,Non-Profit,Gastroenterology,Cigna,2022-07-26,12,55710.85,49148.36,88.2,No,,No
+CLM00460,H008,San Antonio Health,San Antonio,TX,Government,Gastroenterology,Self-Pay,2022-04-10,19,33333.25,15296.79,45.9,Yes,Prior authorization required,No
+CLM00461,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Neurology,Aetna,2023-01-21,1,23026.72,19355.04,84.1,No,,Yes
+CLM00462,H004,Houston Care Center,Houston,TX,Government,Pulmonology,Self-Pay,2024-05-14,5,27877.79,12161.04,43.6,No,,No
+CLM00463,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Oncology,UnitedHealth,2022-08-12,7,24509.31,22501.03,91.8,No,,No
+CLM00464,H009,Dallas Medical Center,Dallas,TX,For-Profit,Neurology,Aetna,2024-03-04,12,22690.43,19755.77,87.1,No,,No
+CLM00465,H004,Houston Care Center,Houston,TX,Government,Emergency,Self-Pay,2024-09-23,7,59892.51,24926.04,41.6,No,,No
+CLM00466,H001,General Hospital NYC,New York,NY,Non-Profit,Orthopedics,Aetna,2023-10-03,3,82041.62,68958.37,84.1,No,,No
+CLM00467,H002,Miami Medical Center,Miami,FL,For-Profit,Oncology,Medicaid,2024-11-10,13,32464.73,22429.98,69.1,No,,No
+CLM00468,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Cardiology,Self-Pay,2024-01-17,15,69989.1,32476.98,46.4,Yes,Patient eligibility,No
+CLM00469,H009,Dallas Medical Center,Dallas,TX,For-Profit,Pulmonology,Medicaid,2022-03-09,12,52868.36,36870.52,69.7,No,,Yes
+CLM00470,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Oncology,Cigna,2023-09-24,17,34494.45,30652.04,88.9,Yes,Missing documentation,No
+CLM00471,H009,Dallas Medical Center,Dallas,TX,For-Profit,Neurology,Blue Cross,2024-07-01,8,30514.17,28730.66,94.2,No,,No
+CLM00472,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Orthopedics,Aetna,2023-09-18,17,43770.88,39212.71,89.6,No,,No
+CLM00473,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Oncology,Cigna,2024-08-15,16,38471.18,33381.75,86.8,No,,No
+CLM00474,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Gastroenterology,Medicare,2024-11-08,13,41744.51,33219.53,79.6,No,,No
+CLM00475,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Emergency,Blue Cross,2024-11-27,9,44628.1,38423.56,86.1,No,,Yes
+CLM00476,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Cardiology,UnitedHealth,2024-03-22,12,79271.59,71158.58,89.8,No,,No
+CLM00477,H004,Houston Care Center,Houston,TX,Government,Emergency,Cigna,2024-04-12,9,18172.16,16419.33,90.4,No,,No
+CLM00478,H003,Chicago Health System,Chicago,IL,Non-Profit,Gastroenterology,Medicare,2022-09-28,16,11509.85,8952.92,77.8,No,,No
+CLM00479,H008,San Antonio Health,San Antonio,TX,Government,Oncology,UnitedHealth,2023-09-13,19,27837.31,26161.84,94.0,No,,No
+CLM00480,H004,Houston Care Center,Houston,TX,Government,Gastroenterology,UnitedHealth,2023-09-13,14,12208.54,11019.11,90.3,No,,No
+CLM00481,H003,Chicago Health System,Chicago,IL,Non-Profit,Emergency,Medicare,2023-02-12,1,59803.42,48800.01,81.6,Yes,Prior authorization required,No
+CLM00482,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Gastroenterology,Blue Cross,2022-06-16,9,17127.23,15179.61,88.6,No,,No
+CLM00483,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Orthopedics,Aetna,2024-03-22,13,60009.5,52642.19,87.7,No,,No
+CLM00484,H004,Houston Care Center,Houston,TX,Government,Gastroenterology,Medicare,2024-03-05,18,61688.09,52460.09,85.0,No,,No
+CLM00485,H008,San Antonio Health,San Antonio,TX,Government,Gastroenterology,Medicare,2023-08-09,21,16246.71,13321.65,82.0,No,,No
+CLM00486,H009,Dallas Medical Center,Dallas,TX,For-Profit,Gastroenterology,UnitedHealth,2022-11-15,6,5483.73,4715.45,86.0,Yes,Duplicate claim,No
+CLM00487,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Oncology,Blue Cross,2024-06-20,9,31585.6,28924.49,91.6,No,,No
+CLM00488,H004,Houston Care Center,Houston,TX,Government,Neurology,UnitedHealth,2024-08-15,10,55763.77,50401.74,90.4,No,,No
+CLM00489,H002,Miami Medical Center,Miami,FL,For-Profit,Emergency,UnitedHealth,2023-06-21,5,25424.72,23217.12,91.3,No,,No
+CLM00490,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Neurology,Aetna,2023-11-23,6,72383.21,61318.31,84.7,No,,No
+CLM00491,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Neurology,Cigna,2023-08-06,12,34520.52,31716.39,91.9,No,,No
+CLM00492,H003,Chicago Health System,Chicago,IL,Non-Profit,Gastroenterology,Medicare,2022-02-06,9,11940.83,9474.6,79.3,No,,No
+CLM00493,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Cardiology,Medicare,2022-02-09,18,6826.67,5856.39,85.8,Yes,Coding error,No
+CLM00494,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Orthopedics,Medicare,2024-08-05,10,56178.53,48231.92,85.9,No,,No
+CLM00495,H003,Chicago Health System,Chicago,IL,Non-Profit,Neurology,Self-Pay,2023-08-28,12,15745.77,6353.66,40.4,No,,No
+CLM00496,H009,Dallas Medical Center,Dallas,TX,For-Profit,Oncology,UnitedHealth,2024-12-19,18,38644.55,36594.62,94.7,Yes,Patient eligibility,No
+CLM00497,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Neurology,Cigna,2023-02-10,12,54900.61,47267.57,86.1,No,,No
+CLM00498,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Emergency,Blue Cross,2023-06-16,17,14502.41,12487.38,86.1,No,,No
+CLM00499,H009,Dallas Medical Center,Dallas,TX,For-Profit,Cardiology,Cigna,2024-05-08,16,78494.38,72583.42,92.5,No,,No
+CLM00500,H001,General Hospital NYC,New York,NY,Non-Profit,Neurology,Blue Cross,2024-12-13,14,17245.68,16352.63,94.8,No,,No
+CLM00501,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Orthopedics,Blue Cross,2024-12-09,17,8114.01,7485.44,92.3,No,,No
+CLM00502,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Pulmonology,Cigna,2022-05-21,7,45917.35,39345.76,85.7,No,,No
+CLM00503,H008,San Antonio Health,San Antonio,TX,Government,Neurology,Aetna,2022-09-06,7,24223.2,21856.0,90.2,No,,No
+CLM00504,H002,Miami Medical Center,Miami,FL,For-Profit,Oncology,Blue Cross,2022-08-11,1,11940.77,10792.57,90.4,No,,No
+CLM00505,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Oncology,Self-Pay,2022-02-02,15,68255.11,34113.65,50.0,No,,Yes
+CLM00506,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Gastroenterology,Aetna,2022-07-04,7,7460.62,6617.68,88.7,No,,No
+CLM00507,H004,Houston Care Center,Houston,TX,Government,Emergency,Self-Pay,2024-02-22,2,82910.18,35213.3,42.5,No,,No
+CLM00508,H004,Houston Care Center,Houston,TX,Government,Emergency,Aetna,2024-09-04,11,58400.43,50879.09,87.1,Yes,Missing documentation,No
+CLM00509,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Emergency,Cigna,2022-02-21,2,26450.89,22907.6,86.6,No,,No
+CLM00510,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Oncology,Medicare,2024-01-26,4,15474.59,12342.69,79.8,No,,No
+CLM00511,H008,San Antonio Health,San Antonio,TX,Government,Pulmonology,UnitedHealth,2024-06-02,8,14441.83,13388.73,92.7,Yes,Missing documentation,No
+CLM00512,H001,General Hospital NYC,New York,NY,Non-Profit,Oncology,Cigna,2024-09-25,4,14352.19,12682.1,88.4,Yes,Prior authorization required,No
+CLM00513,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Gastroenterology,Aetna,2023-01-23,13,62721.27,52819.79,84.2,No,,No
+CLM00514,H008,San Antonio Health,San Antonio,TX,Government,Neurology,Blue Cross,2023-12-09,19,46818.3,42558.27,90.9,No,,No
+CLM00515,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Gastroenterology,UnitedHealth,2023-06-01,15,14888.67,13446.16,90.3,No,,No
+CLM00516,H009,Dallas Medical Center,Dallas,TX,For-Profit,Emergency,Cigna,2022-12-22,12,16992.11,14135.26,83.2,No,,No
+CLM00517,H009,Dallas Medical Center,Dallas,TX,For-Profit,Gastroenterology,Aetna,2023-11-04,18,17354.1,15763.12,90.8,Yes,Duplicate claim,No
+CLM00518,H002,Miami Medical Center,Miami,FL,For-Profit,Neurology,Cigna,2022-08-04,5,7067.77,6456.54,91.4,Yes,Missing documentation,No
+CLM00519,H001,General Hospital NYC,New York,NY,Non-Profit,Neurology,Cigna,2023-01-08,17,71331.01,63897.76,89.6,No,,No
+CLM00520,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Pulmonology,Medicare,2023-02-26,21,2592.69,2235.17,86.2,No,,No
+CLM00521,H001,General Hospital NYC,New York,NY,Non-Profit,Oncology,UnitedHealth,2023-10-17,12,63580.37,59704.71,93.9,No,,Yes
+CLM00522,H001,General Hospital NYC,New York,NY,Non-Profit,Pulmonology,Medicare,2022-12-18,7,71177.12,55361.1,77.8,No,,Yes
+CLM00523,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Orthopedics,Medicaid,2023-09-24,21,45437.03,29755.63,65.5,No,,No
+CLM00524,H002,Miami Medical Center,Miami,FL,For-Profit,Gastroenterology,Cigna,2024-03-13,14,49643.07,44552.14,89.7,No,,No
+CLM00525,H009,Dallas Medical Center,Dallas,TX,For-Profit,Oncology,Cigna,2023-09-28,15,14707.73,13675.89,93.0,No,,No
+CLM00526,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Emergency,Self-Pay,2023-04-25,11,54375.61,26242.51,48.3,No,,No
+CLM00527,H009,Dallas Medical Center,Dallas,TX,For-Profit,Pulmonology,Blue Cross,2022-10-17,13,31560.71,28570.03,90.5,Yes,Missing documentation,No
+CLM00528,H003,Chicago Health System,Chicago,IL,Non-Profit,Oncology,Medicare,2024-09-19,11,26577.89,21054.7,79.2,Yes,Duplicate claim,No
+CLM00529,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Orthopedics,Medicare,2022-04-09,5,4650.98,3746.67,80.6,No,,No
+CLM00530,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Cardiology,UnitedHealth,2023-03-27,3,34883.15,32852.54,94.2,No,,No
+CLM00531,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Gastroenterology,Medicare,2023-06-27,19,51201.81,40963.46,80.0,No,,No
+CLM00532,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Emergency,Self-Pay,2024-11-13,21,11565.13,5517.02,47.7,No,,No
+CLM00533,H001,General Hospital NYC,New York,NY,Non-Profit,Oncology,UnitedHealth,2022-03-22,5,4938.72,4464.57,90.4,No,,No
+CLM00534,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Emergency,Self-Pay,2022-03-11,8,51193.54,23061.3,45.0,No,,No
+CLM00535,H002,Miami Medical Center,Miami,FL,For-Profit,Emergency,UnitedHealth,2022-12-25,9,63733.81,57667.32,90.5,Yes,Patient eligibility,No
+CLM00536,H003,Chicago Health System,Chicago,IL,Non-Profit,Emergency,UnitedHealth,2024-12-08,19,18042.06,16048.99,89.0,No,,No
+CLM00537,H004,Houston Care Center,Houston,TX,Government,Cardiology,Blue Cross,2022-06-11,19,66360.45,59216.16,89.2,Yes,Coding error,No
+CLM00538,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Neurology,Cigna,2024-08-05,12,3521.27,3029.99,86.0,No,,No
+CLM00539,H008,San Antonio Health,San Antonio,TX,Government,Cardiology,Self-Pay,2024-02-02,5,20996.38,9837.56,46.9,No,,No
+CLM00540,H004,Houston Care Center,Houston,TX,Government,Neurology,Medicaid,2023-05-16,1,74040.82,52718.06,71.2,No,,No
+CLM00541,H001,General Hospital NYC,New York,NY,Non-Profit,Oncology,Medicaid,2024-08-24,18,63291.08,41214.36,65.1,No,,No
+CLM00542,H003,Chicago Health System,Chicago,IL,Non-Profit,Pulmonology,Cigna,2024-04-20,17,57299.76,49716.75,86.8,Yes,Prior authorization required,Yes
+CLM00543,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Cardiology,Aetna,2023-11-28,13,56172.28,47231.53,84.1,No,,No
+CLM00544,H002,Miami Medical Center,Miami,FL,For-Profit,Cardiology,Blue Cross,2022-12-11,8,73928.77,68379.76,92.5,No,,No
+CLM00545,H008,San Antonio Health,San Antonio,TX,Government,Gastroenterology,UnitedHealth,2022-12-02,17,45885.31,39857.9,86.9,No,,No
+CLM00546,H004,Houston Care Center,Houston,TX,Government,Neurology,Blue Cross,2022-05-17,6,29353.06,26398.38,89.9,Yes,Duplicate claim,No
+CLM00547,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Gastroenterology,Medicare,2022-04-11,1,53753.66,46113.53,85.8,No,,No
+CLM00548,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Pulmonology,Medicaid,2022-07-19,20,8830.88,5900.98,66.8,No,,No
+CLM00549,H003,Chicago Health System,Chicago,IL,Non-Profit,Emergency,Blue Cross,2022-11-28,18,77462.91,69168.84,89.3,Yes,Prior authorization required,No
+CLM00550,H003,Chicago Health System,Chicago,IL,Non-Profit,Oncology,Cigna,2024-03-19,5,60378.89,53277.16,88.2,No,,No
+CLM00551,H003,Chicago Health System,Chicago,IL,Non-Profit,Oncology,Medicare,2024-03-01,4,48037.91,41546.07,86.5,No,,No
+CLM00552,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Emergency,Aetna,2022-04-05,21,26829.57,24537.28,91.5,No,,No
+CLM00553,H003,Chicago Health System,Chicago,IL,Non-Profit,Cardiology,Self-Pay,2022-04-22,20,83827.29,38702.61,46.2,No,,No
+CLM00554,H001,General Hospital NYC,New York,NY,Non-Profit,Oncology,Medicare,2023-11-06,17,58959.8,48209.08,81.8,No,,No
+CLM00555,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Emergency,Aetna,2023-05-08,2,12982.31,11156.04,85.9,No,,No
+CLM00556,H004,Houston Care Center,Houston,TX,Government,Gastroenterology,Medicaid,2023-06-08,15,7022.38,5075.15,72.3,No,,No
+CLM00557,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Emergency,Self-Pay,2024-12-20,13,4992.49,2364.11,47.4,No,,No
+CLM00558,H009,Dallas Medical Center,Dallas,TX,For-Profit,Neurology,Cigna,2022-01-17,17,74627.88,67813.76,90.9,Yes,Coding error,No
+CLM00559,H009,Dallas Medical Center,Dallas,TX,For-Profit,Emergency,Cigna,2023-08-10,21,4777.51,4150.41,86.9,No,,No
+CLM00560,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Emergency,Medicaid,2024-08-15,2,36775.59,25423.46,69.1,No,,No
+CLM00561,H002,Miami Medical Center,Miami,FL,For-Profit,Pulmonology,UnitedHealth,2022-01-15,18,10949.83,10160.05,92.8,Yes,Coding error,No
+CLM00562,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Pulmonology,Medicaid,2024-03-24,11,75192.8,48049.55,63.9,No,,No
+CLM00563,H002,Miami Medical Center,Miami,FL,For-Profit,Cardiology,Medicare,2024-09-06,3,60469.93,50396.08,83.3,No,,No
+CLM00564,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Neurology,Aetna,2022-03-28,11,5166.16,4427.86,85.7,No,,No
+CLM00565,H003,Chicago Health System,Chicago,IL,Non-Profit,Orthopedics,Self-Pay,2024-05-06,10,60955.97,26939.99,44.2,No,,No
+CLM00566,H002,Miami Medical Center,Miami,FL,For-Profit,Orthopedics,Medicaid,2022-09-20,1,1795.0,1268.24,70.7,No,,No
+CLM00567,H008,San Antonio Health,San Antonio,TX,Government,Orthopedics,Medicaid,2022-01-18,14,50670.0,34332.53,67.8,No,,No
+CLM00568,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Neurology,Cigna,2022-06-05,2,48055.31,43851.68,91.3,No,,Yes
+CLM00569,H001,General Hospital NYC,New York,NY,Non-Profit,Pulmonology,UnitedHealth,2024-03-10,3,71474.21,62886.17,88.0,Yes,Coding error,No
+CLM00570,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Pulmonology,Cigna,2022-06-03,18,59937.21,53177.99,88.7,Yes,Coding error,No
+CLM00571,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Oncology,Blue Cross,2022-08-04,14,76443.74,72012.03,94.2,No,,Yes
+CLM00572,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Oncology,UnitedHealth,2024-12-17,7,36048.79,31397.94,87.1,No,,Yes
+CLM00573,H002,Miami Medical Center,Miami,FL,For-Profit,Emergency,Cigna,2024-05-19,10,59002.63,54482.39,92.3,No,,No
+CLM00574,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Oncology,Medicaid,2022-10-23,21,52793.21,35880.36,68.0,No,,No
+CLM00575,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Orthopedics,Medicare,2023-10-14,4,11370.3,9283.72,81.6,No,,No
+CLM00576,H001,General Hospital NYC,New York,NY,Non-Profit,Oncology,Blue Cross,2022-05-10,1,48294.69,44612.24,92.4,No,,No
+CLM00577,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Neurology,UnitedHealth,2022-10-27,11,28547.64,24283.0,85.1,No,,No
+CLM00578,H003,Chicago Health System,Chicago,IL,Non-Profit,Orthopedics,Blue Cross,2022-11-16,16,71124.41,67726.65,95.2,No,,No
+CLM00579,H003,Chicago Health System,Chicago,IL,Non-Profit,Pulmonology,Aetna,2022-12-27,11,75986.87,67909.22,89.4,No,,No
+CLM00580,H009,Dallas Medical Center,Dallas,TX,For-Profit,Oncology,UnitedHealth,2022-06-05,18,62034.51,54686.54,88.2,Yes,Patient eligibility,No
+CLM00581,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Gastroenterology,Medicare,2022-07-20,18,29819.23,24079.75,80.8,No,,No
+CLM00582,H002,Miami Medical Center,Miami,FL,For-Profit,Gastroenterology,Self-Pay,2023-02-08,11,64253.61,30233.03,47.1,No,,No
+CLM00583,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Emergency,Self-Pay,2022-04-15,10,80885.68,34102.53,42.2,Yes,Duplicate claim,No
+CLM00584,H009,Dallas Medical Center,Dallas,TX,For-Profit,Cardiology,Self-Pay,2023-09-25,7,41802.38,18811.3,45.0,No,,No
+CLM00585,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Orthopedics,Self-Pay,2022-12-15,17,74295.22,35826.18,48.2,No,,No
+CLM00586,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Pulmonology,Self-Pay,2023-02-15,2,45115.8,18064.86,40.0,No,,No
+CLM00587,H001,General Hospital NYC,New York,NY,Non-Profit,Cardiology,UnitedHealth,2023-04-07,1,65476.05,60536.24,92.5,No,,No
+CLM00588,H004,Houston Care Center,Houston,TX,Government,Oncology,Blue Cross,2022-02-20,4,45945.03,43063.3,93.7,No,,No
+CLM00589,H009,Dallas Medical Center,Dallas,TX,For-Profit,Neurology,Medicare,2024-05-08,11,18749.21,15093.71,80.5,No,,No
+CLM00590,H003,Chicago Health System,Chicago,IL,Non-Profit,Cardiology,Blue Cross,2022-11-04,15,52707.45,47113.81,89.4,Yes,Missing documentation,No
+CLM00591,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Cardiology,Medicare,2024-12-15,20,37109.89,29238.82,78.8,No,,No
+CLM00592,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Oncology,Blue Cross,2024-02-15,18,29249.73,25734.34,88.0,Yes,Coding error,No
+CLM00593,H002,Miami Medical Center,Miami,FL,For-Profit,Emergency,Blue Cross,2024-03-09,15,58653.91,54608.06,93.1,No,,No
+CLM00594,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Emergency,Medicaid,2022-08-12,11,59917.82,41733.84,69.7,No,,Yes
+CLM00595,H008,San Antonio Health,San Antonio,TX,Government,Emergency,Self-Pay,2024-07-26,20,15761.93,7515.2,47.7,No,,No
+CLM00596,H002,Miami Medical Center,Miami,FL,For-Profit,Oncology,UnitedHealth,2024-04-08,18,55729.19,51785.96,92.9,No,,No
+CLM00597,H009,Dallas Medical Center,Dallas,TX,For-Profit,Orthopedics,Aetna,2023-10-18,19,33548.67,29323.93,87.4,No,,No
+CLM00598,H004,Houston Care Center,Houston,TX,Government,Orthopedics,Cigna,2023-10-11,19,57412.03,51896.84,90.4,No,,Yes
+CLM00599,H009,Dallas Medical Center,Dallas,TX,For-Profit,Cardiology,Self-Pay,2023-10-11,13,38675.56,16661.57,43.1,Yes,Missing documentation,No
+CLM00600,H008,San Antonio Health,San Antonio,TX,Government,Pulmonology,Cigna,2022-11-25,5,6633.77,5650.39,85.2,No,,No
+CLM00601,H003,Chicago Health System,Chicago,IL,Non-Profit,Pulmonology,Medicaid,2023-11-10,20,39323.36,25920.01,65.9,No,,No
+CLM00602,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Gastroenterology,Cigna,2024-02-01,14,26929.94,24892.24,92.4,No,,No
+CLM00603,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Neurology,Aetna,2022-01-23,2,72277.67,66874.95,92.5,No,,No
+CLM00604,H009,Dallas Medical Center,Dallas,TX,For-Profit,Gastroenterology,Blue Cross,2024-07-11,1,10659.81,9468.27,88.8,No,,No
+CLM00605,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Emergency,Aetna,2023-07-27,6,37838.37,32583.44,86.1,No,,No
+CLM00606,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Orthopedics,Blue Cross,2024-08-14,5,84787.58,78598.65,92.7,Yes,Missing documentation,No
+CLM00607,H003,Chicago Health System,Chicago,IL,Non-Profit,Cardiology,Medicaid,2024-07-06,15,55127.28,37022.68,67.2,No,,No
+CLM00608,H008,San Antonio Health,San Antonio,TX,Government,Neurology,Aetna,2024-01-16,12,47596.18,42122.84,88.5,No,,No
+CLM00609,H004,Houston Care Center,Houston,TX,Government,Pulmonology,UnitedHealth,2023-10-23,19,23982.41,22607.17,94.3,No,,No
+CLM00610,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Cardiology,UnitedHealth,2023-05-17,5,41708.0,38331.73,91.9,No,,No
+CLM00611,H002,Miami Medical Center,Miami,FL,For-Profit,Neurology,UnitedHealth,2023-10-20,3,8885.27,7972.27,89.7,No,,No
+CLM00612,H001,General Hospital NYC,New York,NY,Non-Profit,Oncology,UnitedHealth,2023-06-12,17,66507.02,59649.27,89.7,No,,No
+CLM00613,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Oncology,Medicaid,2024-01-16,10,4449.74,3213.99,72.2,No,,No
+CLM00614,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Orthopedics,UnitedHealth,2022-09-28,20,5810.26,5514.15,94.9,Yes,Coding error,Yes
+CLM00615,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Oncology,Medicaid,2024-10-05,9,52919.11,34795.46,65.8,Yes,Missing documentation,No
+CLM00616,H008,San Antonio Health,San Antonio,TX,Government,Oncology,Self-Pay,2023-01-03,8,16145.85,7721.8,47.8,No,,No
+CLM00617,H003,Chicago Health System,Chicago,IL,Non-Profit,Neurology,Self-Pay,2024-08-21,14,14371.55,6461.37,45.0,No,,No
+CLM00618,H003,Chicago Health System,Chicago,IL,Non-Profit,Orthopedics,UnitedHealth,2022-01-15,21,62819.15,55564.01,88.5,No,,No
+CLM00619,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Emergency,Blue Cross,2023-07-09,18,41268.23,39403.95,95.5,No,,No
+CLM00620,H003,Chicago Health System,Chicago,IL,Non-Profit,Neurology,Self-Pay,2024-09-02,15,37800.32,16211.77,42.9,No,,No
+CLM00621,H002,Miami Medical Center,Miami,FL,For-Profit,Neurology,Cigna,2023-06-09,20,31044.65,28387.97,91.4,No,,No
+CLM00622,H002,Miami Medical Center,Miami,FL,For-Profit,Oncology,Cigna,2024-04-11,8,50278.77,44049.78,87.6,No,,No
+CLM00623,H003,Chicago Health System,Chicago,IL,Non-Profit,Oncology,UnitedHealth,2023-11-12,3,2383.26,2027.79,85.1,Yes,Missing documentation,No
+CLM00624,H004,Houston Care Center,Houston,TX,Government,Pulmonology,Blue Cross,2024-04-21,20,22533.32,19455.36,86.3,Yes,Patient eligibility,No
+CLM00625,H002,Miami Medical Center,Miami,FL,For-Profit,Pulmonology,Medicare,2022-10-04,13,8713.26,7236.09,83.0,No,,No
+CLM00626,H003,Chicago Health System,Chicago,IL,Non-Profit,Oncology,Blue Cross,2024-07-22,21,40490.79,38612.75,95.4,No,,No
+CLM00627,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Oncology,Medicaid,2023-01-27,2,66691.06,43864.63,65.8,No,,No
+CLM00628,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Orthopedics,Aetna,2022-08-05,7,7294.77,6842.07,93.8,No,,No
+CLM00629,H009,Dallas Medical Center,Dallas,TX,For-Profit,Gastroenterology,Aetna,2022-02-19,15,19735.27,17847.27,90.4,No,,Yes
+CLM00630,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Gastroenterology,Aetna,2023-11-09,21,3066.86,2728.8,89.0,No,,No
+CLM00631,H003,Chicago Health System,Chicago,IL,Non-Profit,Pulmonology,Blue Cross,2023-08-13,17,77035.56,70677.35,91.7,No,,No
+CLM00632,H002,Miami Medical Center,Miami,FL,For-Profit,Neurology,Medicaid,2023-06-22,16,1776.16,1288.45,72.5,Yes,Patient eligibility,No
+CLM00633,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Emergency,Medicare,2022-06-27,3,54294.76,47012.88,86.6,No,,No
+CLM00634,H008,San Antonio Health,San Antonio,TX,Government,Gastroenterology,Self-Pay,2024-05-13,18,25711.55,10806.87,42.0,Yes,Coding error,No
+CLM00635,H002,Miami Medical Center,Miami,FL,For-Profit,Pulmonology,Cigna,2022-01-01,21,31498.3,26410.89,83.8,No,,No
+CLM00636,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Orthopedics,Aetna,2022-08-02,21,33962.09,31220.46,91.9,No,,No
+CLM00637,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Cardiology,Blue Cross,2023-09-22,4,67279.51,58148.43,86.4,No,,No
+CLM00638,H009,Dallas Medical Center,Dallas,TX,For-Profit,Orthopedics,Cigna,2023-01-20,2,49875.37,46009.11,92.2,No,,No
+CLM00639,H001,General Hospital NYC,New York,NY,Non-Profit,Orthopedics,Cigna,2023-02-20,21,55673.67,46289.12,83.1,Yes,Duplicate claim,No
+CLM00640,H003,Chicago Health System,Chicago,IL,Non-Profit,Gastroenterology,UnitedHealth,2022-04-26,4,6840.46,6373.58,93.2,No,,No
+CLM00641,H004,Houston Care Center,Houston,TX,Government,Emergency,Blue Cross,2024-10-05,13,69262.01,66368.19,95.8,No,,No
+CLM00642,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Gastroenterology,Self-Pay,2023-03-06,6,19304.86,7809.95,40.5,No,,No
+CLM00643,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Neurology,Medicaid,2022-03-16,2,38128.21,27550.21,72.3,Yes,Patient eligibility,No
+CLM00644,H002,Miami Medical Center,Miami,FL,For-Profit,Cardiology,Medicare,2023-12-23,21,16480.97,12837.26,77.9,No,,No
+CLM00645,H003,Chicago Health System,Chicago,IL,Non-Profit,Orthopedics,Medicaid,2022-12-20,14,54925.45,37476.11,68.2,No,,No
+CLM00646,H003,Chicago Health System,Chicago,IL,Non-Profit,Pulmonology,Aetna,2022-04-04,10,52606.16,44652.22,84.9,No,,Yes
+CLM00647,H009,Dallas Medical Center,Dallas,TX,For-Profit,Cardiology,UnitedHealth,2024-11-07,18,31718.76,29375.15,92.6,No,,No
+CLM00648,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Cardiology,Medicaid,2022-01-21,16,10908.71,7035.26,64.5,No,,No
+CLM00649,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Oncology,Medicaid,2022-03-26,15,37795.08,25074.37,66.3,Yes,Missing documentation,No
+CLM00650,H001,General Hospital NYC,New York,NY,Non-Profit,Emergency,UnitedHealth,2024-04-22,15,11191.43,10514.44,94.0,No,,No
+CLM00651,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Orthopedics,Self-Pay,2022-07-03,8,10696.09,4522.07,42.3,No,,No
+CLM00652,H008,San Antonio Health,San Antonio,TX,Government,Neurology,Aetna,2023-07-05,7,6037.34,5334.51,88.4,No,,No
+CLM00653,H008,San Antonio Health,San Antonio,TX,Government,Pulmonology,Medicaid,2022-10-09,7,54273.76,39487.18,72.8,No,,Yes
+CLM00654,H003,Chicago Health System,Chicago,IL,Non-Profit,Cardiology,Self-Pay,2024-03-20,11,40372.11,17837.3,44.2,No,,No
+CLM00655,H003,Chicago Health System,Chicago,IL,Non-Profit,Neurology,UnitedHealth,2023-10-27,17,72892.84,62589.25,85.9,No,,No
+CLM00656,H008,San Antonio Health,San Antonio,TX,Government,Oncology,Medicare,2024-04-05,8,62456.48,52689.4,84.4,No,,No
+CLM00657,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Cardiology,Aetna,2024-07-13,16,83345.37,70343.98,84.4,No,,No
+CLM00658,H008,San Antonio Health,San Antonio,TX,Government,Gastroenterology,Self-Pay,2024-01-24,16,59670.57,24452.99,41.0,No,,No
+CLM00659,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Orthopedics,Medicaid,2024-08-24,3,31426.87,20550.23,65.4,Yes,Duplicate claim,No
+CLM00660,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Cardiology,Aetna,2023-11-23,13,40224.01,34345.77,85.4,No,,No
+CLM00661,H001,General Hospital NYC,New York,NY,Non-Profit,Gastroenterology,Cigna,2024-05-20,11,7403.33,6806.2,91.9,No,,No
+CLM00662,H009,Dallas Medical Center,Dallas,TX,For-Profit,Neurology,Self-Pay,2024-01-22,20,18796.73,8805.64,46.8,No,,No
+CLM00663,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Cardiology,Medicare,2024-09-03,2,33476.74,27334.94,81.7,No,,No
+CLM00664,H009,Dallas Medical Center,Dallas,TX,For-Profit,Pulmonology,Self-Pay,2024-12-28,8,18593.5,9261.89,49.8,No,,No
+CLM00665,H004,Houston Care Center,Houston,TX,Government,Gastroenterology,Cigna,2022-01-12,9,65033.97,56062.3,86.2,No,,No
+CLM00666,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Emergency,Aetna,2023-09-15,16,43371.08,40029.6,92.3,No,,No
+CLM00667,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Oncology,Self-Pay,2022-02-13,3,57721.09,27089.8,46.9,No,,No
+CLM00668,H003,Chicago Health System,Chicago,IL,Non-Profit,Oncology,Medicare,2024-09-01,5,10631.97,8480.0,79.8,No,,No
+CLM00669,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Emergency,Cigna,2023-01-07,12,46709.82,39385.85,84.3,No,,No
+CLM00670,H002,Miami Medical Center,Miami,FL,For-Profit,Cardiology,Self-Pay,2024-06-21,17,68466.09,33103.0,48.3,No,,No
+CLM00671,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Emergency,UnitedHealth,2023-03-06,18,57098.92,51561.27,90.3,No,,No
+CLM00672,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Orthopedics,Aetna,2024-03-06,2,32553.84,28283.25,86.9,Yes,Duplicate claim,No
+CLM00673,H009,Dallas Medical Center,Dallas,TX,For-Profit,Oncology,Medicaid,2024-06-05,5,82762.71,59087.04,71.4,Yes,Missing documentation,Yes
+CLM00674,H008,San Antonio Health,San Antonio,TX,Government,Oncology,Blue Cross,2023-03-15,2,16905.46,15489.61,91.6,No,,No
+CLM00675,H009,Dallas Medical Center,Dallas,TX,For-Profit,Orthopedics,UnitedHealth,2023-08-05,13,26680.24,25133.94,94.2,No,,No
+CLM00676,H001,General Hospital NYC,New York,NY,Non-Profit,Pulmonology,UnitedHealth,2024-10-05,10,82962.69,73266.68,88.3,No,,No
+CLM00677,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Pulmonology,Aetna,2022-09-10,16,29780.15,25349.8,85.1,No,,No
+CLM00678,H001,General Hospital NYC,New York,NY,Non-Profit,Emergency,UnitedHealth,2024-04-17,3,71713.22,64154.45,89.5,No,,No
+CLM00679,H004,Houston Care Center,Houston,TX,Government,Gastroenterology,Self-Pay,2024-02-13,18,24706.92,9938.48,40.2,No,,No
+CLM00680,H004,Houston Care Center,Houston,TX,Government,Emergency,Blue Cross,2024-03-28,2,51864.85,47256.95,91.1,No,,No
+CLM00681,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Oncology,Aetna,2022-09-07,12,32631.4,28339.23,86.8,No,,No
+CLM00682,H008,San Antonio Health,San Antonio,TX,Government,Pulmonology,Aetna,2024-10-03,14,68607.74,59610.75,86.9,No,,No
+CLM00683,H003,Chicago Health System,Chicago,IL,Non-Profit,Orthopedics,Blue Cross,2022-02-14,11,41130.2,38940.12,94.7,Yes,Patient eligibility,No
+CLM00684,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Emergency,Medicaid,2024-05-16,5,47910.46,33586.42,70.1,No,,No
+CLM00685,H001,General Hospital NYC,New York,NY,Non-Profit,Gastroenterology,Self-Pay,2022-01-05,16,26716.41,12250.03,45.9,No,,No
+CLM00686,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Oncology,Cigna,2023-03-23,21,71159.3,62424.79,87.7,No,,No
+CLM00687,H004,Houston Care Center,Houston,TX,Government,Cardiology,Medicare,2024-08-14,3,65353.98,53544.84,81.9,No,,No
+CLM00688,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Pulmonology,Cigna,2023-01-06,4,41249.4,37100.72,89.9,No,,No
+CLM00689,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Cardiology,Medicaid,2023-06-21,5,28193.37,20238.1,71.8,No,,Yes
+CLM00690,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Cardiology,Blue Cross,2022-03-20,3,25853.95,23886.33,92.4,No,,No
+CLM00691,H003,Chicago Health System,Chicago,IL,Non-Profit,Neurology,Blue Cross,2022-06-18,10,74349.0,70087.48,94.3,No,,No
+CLM00692,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Oncology,Self-Pay,2022-06-04,10,13500.41,5585.05,41.4,No,,No
+CLM00693,H004,Houston Care Center,Houston,TX,Government,Orthopedics,UnitedHealth,2024-09-23,18,19962.98,17344.67,86.9,No,,No
+CLM00694,H009,Dallas Medical Center,Dallas,TX,For-Profit,Pulmonology,Self-Pay,2023-08-10,3,68515.45,30265.65,44.2,Yes,Prior authorization required,No
+CLM00695,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Orthopedics,Self-Pay,2023-12-01,17,38401.82,19153.22,49.9,No,,No
+CLM00696,H002,Miami Medical Center,Miami,FL,For-Profit,Orthopedics,Medicaid,2023-02-23,8,73044.07,47057.61,64.4,No,,No
+CLM00697,H002,Miami Medical Center,Miami,FL,For-Profit,Cardiology,Medicare,2024-11-19,2,66186.81,55976.4,84.6,No,,Yes
+CLM00698,H001,General Hospital NYC,New York,NY,Non-Profit,Emergency,Medicare,2024-02-07,10,77362.2,59903.73,77.4,No,,No
+CLM00699,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Orthopedics,Medicaid,2023-10-12,5,57495.15,36390.17,63.3,No,,No
+CLM00700,H003,Chicago Health System,Chicago,IL,Non-Profit,Gastroenterology,UnitedHealth,2022-10-17,17,66696.98,60780.67,91.1,No,,Yes
+CLM00701,H004,Houston Care Center,Houston,TX,Government,Pulmonology,Medicaid,2024-09-16,18,82016.03,53078.92,64.7,Yes,Missing documentation,No
+CLM00702,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Pulmonology,UnitedHealth,2023-07-07,4,16958.0,15556.46,91.7,No,,No
+CLM00703,H009,Dallas Medical Center,Dallas,TX,For-Profit,Orthopedics,Aetna,2023-08-23,4,10922.6,10250.44,93.8,No,,No
+CLM00704,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Neurology,Cigna,2023-12-22,4,4890.82,4219.86,86.3,No,,No
+CLM00705,H008,San Antonio Health,San Antonio,TX,Government,Orthopedics,UnitedHealth,2024-08-12,14,35508.07,33679.27,94.8,No,,Yes
+CLM00706,H003,Chicago Health System,Chicago,IL,Non-Profit,Cardiology,Cigna,2022-02-13,15,42552.64,35766.23,84.1,No,,No
+CLM00707,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Pulmonology,UnitedHealth,2023-10-04,6,83127.17,76821.41,92.4,Yes,Prior authorization required,No
+CLM00708,H004,Houston Care Center,Houston,TX,Government,Gastroenterology,Aetna,2023-11-12,19,62054.24,53853.89,86.8,No,,No
+CLM00709,H008,San Antonio Health,San Antonio,TX,Government,Pulmonology,UnitedHealth,2022-02-09,17,80836.59,76693.9,94.9,No,,No
+CLM00710,H008,San Antonio Health,San Antonio,TX,Government,Emergency,Medicaid,2024-08-01,4,53968.98,34726.93,64.3,No,,No
+CLM00711,H003,Chicago Health System,Chicago,IL,Non-Profit,Emergency,UnitedHealth,2024-11-25,20,58213.56,50370.66,86.5,No,,No
+CLM00712,H008,San Antonio Health,San Antonio,TX,Government,Gastroenterology,Aetna,2024-09-01,16,18361.3,16639.18,90.6,No,,No
+CLM00713,H001,General Hospital NYC,New York,NY,Non-Profit,Emergency,Medicare,2024-03-22,13,33533.09,26875.29,80.1,No,,Yes
+CLM00714,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Pulmonology,Medicaid,2023-11-22,13,42538.55,27371.38,64.3,No,,Yes
+CLM00715,H009,Dallas Medical Center,Dallas,TX,For-Profit,Pulmonology,UnitedHealth,2024-08-13,6,49279.55,44232.89,89.8,No,,No
+CLM00716,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Pulmonology,Blue Cross,2023-06-26,2,65500.31,58193.34,88.8,Yes,Missing documentation,No
+CLM00717,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Cardiology,Self-Pay,2023-07-02,4,75927.13,32961.91,43.4,No,,No
+CLM00718,H004,Houston Care Center,Houston,TX,Government,Orthopedics,Medicaid,2022-03-18,3,55614.92,38332.76,68.9,No,,Yes
+CLM00719,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Cardiology,Aetna,2023-12-19,17,56423.61,49779.58,88.2,No,,No
+CLM00720,H001,General Hospital NYC,New York,NY,Non-Profit,Oncology,Aetna,2022-11-11,4,49124.52,42848.48,87.2,No,,Yes
+CLM00721,H008,San Antonio Health,San Antonio,TX,Government,Neurology,Self-Pay,2023-04-21,20,65369.48,28367.34,43.4,No,,No
+CLM00722,H002,Miami Medical Center,Miami,FL,For-Profit,Gastroenterology,Self-Pay,2024-04-24,2,46242.14,19825.65,42.9,No,,No
+CLM00723,H002,Miami Medical Center,Miami,FL,For-Profit,Pulmonology,Self-Pay,2023-04-26,9,49779.14,22857.91,45.9,Yes,Patient eligibility,No
+CLM00724,H002,Miami Medical Center,Miami,FL,For-Profit,Pulmonology,Self-Pay,2023-07-09,14,26704.23,12829.05,48.0,No,,No
+CLM00725,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Neurology,Aetna,2024-03-16,1,57575.28,51515.84,89.5,No,,No
+CLM00726,H004,Houston Care Center,Houston,TX,Government,Pulmonology,Self-Pay,2024-07-24,21,63474.37,28355.88,44.7,No,,No
+CLM00727,H001,General Hospital NYC,New York,NY,Non-Profit,Neurology,Medicaid,2023-07-11,5,31916.93,20579.22,64.5,No,,No
+CLM00728,H002,Miami Medical Center,Miami,FL,For-Profit,Pulmonology,Medicaid,2022-10-13,10,72138.24,47372.71,65.7,No,,No
+CLM00729,H004,Houston Care Center,Houston,TX,Government,Cardiology,Medicaid,2023-07-21,10,17524.99,11471.13,65.5,No,,No
+CLM00730,H001,General Hospital NYC,New York,NY,Non-Profit,Orthopedics,Medicaid,2024-01-16,9,24271.45,15361.75,63.3,No,,No
+CLM00731,H001,General Hospital NYC,New York,NY,Non-Profit,Cardiology,Self-Pay,2023-07-22,10,76358.21,32940.2,43.1,No,,No
+CLM00732,H002,Miami Medical Center,Miami,FL,For-Profit,Emergency,Self-Pay,2024-02-22,4,61973.58,25660.53,41.4,No,,No
+CLM00733,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Gastroenterology,UnitedHealth,2023-06-27,8,22525.97,21139.64,93.8,No,,No
+CLM00734,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Pulmonology,Aetna,2023-04-15,14,68787.77,62899.25,91.4,No,,Yes
+CLM00735,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Oncology,Self-Pay,2023-09-16,12,50721.66,22775.84,44.9,No,,Yes
+CLM00736,H004,Houston Care Center,Houston,TX,Government,Oncology,Self-Pay,2022-10-27,12,79737.19,34789.32,43.6,No,,Yes
+CLM00737,H001,General Hospital NYC,New York,NY,Non-Profit,Pulmonology,Self-Pay,2024-06-04,13,57578.48,24488.03,42.5,No,,No
+CLM00738,H009,Dallas Medical Center,Dallas,TX,For-Profit,Gastroenterology,Medicaid,2022-05-27,13,73113.54,48901.78,66.9,No,,No
+CLM00739,H004,Houston Care Center,Houston,TX,Government,Oncology,Medicaid,2023-11-26,15,73261.3,47328.46,64.6,No,,No
+CLM00740,H001,General Hospital NYC,New York,NY,Non-Profit,Oncology,Self-Pay,2024-06-14,16,8187.9,3913.37,47.8,No,,No
+CLM00741,H002,Miami Medical Center,Miami,FL,For-Profit,Gastroenterology,Medicaid,2024-09-11,12,59823.26,40717.71,68.1,No,,No
+CLM00742,H008,San Antonio Health,San Antonio,TX,Government,Pulmonology,Medicare,2022-03-13,6,65124.95,54323.15,83.4,No,,No
+CLM00743,H004,Houston Care Center,Houston,TX,Government,Pulmonology,Blue Cross,2022-11-28,6,27695.77,24046.11,86.8,No,,No
+CLM00744,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Pulmonology,Aetna,2024-03-19,16,67685.63,59017.8,87.2,No,,No
+CLM00745,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Gastroenterology,Blue Cross,2022-10-01,6,18088.42,16305.8,90.1,No,,No
+CLM00746,H001,General Hospital NYC,New York,NY,Non-Profit,Neurology,Cigna,2022-12-02,3,52602.26,44862.93,85.3,No,,No
+CLM00747,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Neurology,Aetna,2024-12-14,12,51632.79,44142.17,85.5,Yes,Patient eligibility,Yes
+CLM00748,H008,San Antonio Health,San Antonio,TX,Government,Gastroenterology,Cigna,2023-05-24,7,42761.44,36451.92,85.2,No,,No
+CLM00749,H008,San Antonio Health,San Antonio,TX,Government,Emergency,Medicaid,2022-11-14,7,37514.27,24409.06,65.1,No,,No
+CLM00750,H003,Chicago Health System,Chicago,IL,Non-Profit,Emergency,Self-Pay,2023-04-19,9,13686.23,5871.66,42.9,No,,No
+CLM00751,H008,San Antonio Health,San Antonio,TX,Government,Cardiology,Medicare,2023-12-24,13,40651.61,34844.3,85.7,No,,No
+CLM00752,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Oncology,Medicare,2024-06-22,11,9455.83,7336.54,77.6,No,,No
+CLM00753,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Pulmonology,Cigna,2024-07-12,17,69122.72,57408.91,83.1,No,,No
+CLM00754,H003,Chicago Health System,Chicago,IL,Non-Profit,Neurology,Medicare,2022-08-03,17,49970.66,39778.1,79.6,No,,No
+CLM00755,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Pulmonology,UnitedHealth,2024-05-12,11,37649.63,32982.6,87.6,Yes,Prior authorization required,No
+CLM00756,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Oncology,Blue Cross,2023-03-24,9,52679.79,49316.52,93.6,No,,No
+CLM00757,H008,San Antonio Health,San Antonio,TX,Government,Gastroenterology,Medicaid,2022-03-08,21,47898.84,34596.63,72.2,No,,Yes
+CLM00758,H003,Chicago Health System,Chicago,IL,Non-Profit,Cardiology,Aetna,2024-06-18,14,23228.7,21151.97,91.1,Yes,Coding error,Yes
+CLM00759,H008,San Antonio Health,San Antonio,TX,Government,Emergency,Aetna,2022-05-27,5,10892.99,9934.15,91.2,Yes,Missing documentation,No
+CLM00760,H003,Chicago Health System,Chicago,IL,Non-Profit,Pulmonology,UnitedHealth,2024-01-25,19,70184.74,63610.17,90.6,No,,No
+CLM00761,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Orthopedics,Aetna,2023-01-22,16,78354.5,67746.53,86.5,No,,No
+CLM00762,H002,Miami Medical Center,Miami,FL,For-Profit,Emergency,Blue Cross,2024-12-16,11,50793.26,48513.76,95.5,Yes,Missing documentation,No
+CLM00763,H008,San Antonio Health,San Antonio,TX,Government,Pulmonology,Blue Cross,2024-06-24,2,51116.06,43989.49,86.1,No,,No
+CLM00764,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Orthopedics,Medicaid,2024-02-20,10,73583.78,52255.95,71.0,No,,Yes
+CLM00765,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Cardiology,Aetna,2023-07-21,13,22806.19,19704.73,86.4,Yes,Prior authorization required,No
+CLM00766,H003,Chicago Health System,Chicago,IL,Non-Profit,Cardiology,Blue Cross,2024-06-04,10,42485.57,38374.49,90.3,No,,No
+CLM00767,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Neurology,Medicaid,2023-02-26,16,42383.52,30454.31,71.9,No,,No
+CLM00768,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Neurology,Medicaid,2022-11-21,2,37747.84,25389.26,67.3,No,,No
+CLM00769,H003,Chicago Health System,Chicago,IL,Non-Profit,Emergency,UnitedHealth,2023-08-05,10,54068.23,48794.84,90.2,No,,Yes
+CLM00770,H003,Chicago Health System,Chicago,IL,Non-Profit,Pulmonology,Blue Cross,2024-01-04,10,71768.42,65474.99,91.2,No,,No
+CLM00771,H009,Dallas Medical Center,Dallas,TX,For-Profit,Emergency,Aetna,2022-10-25,19,9389.44,8507.64,90.6,No,,No
+CLM00772,H009,Dallas Medical Center,Dallas,TX,For-Profit,Cardiology,Medicare,2024-07-10,6,63333.1,51698.04,81.6,No,,Yes
+CLM00773,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Neurology,Cigna,2022-03-06,20,39492.35,35425.66,89.7,No,,No
+CLM00774,H002,Miami Medical Center,Miami,FL,For-Profit,Pulmonology,UnitedHealth,2022-02-06,14,23153.03,21239.22,91.7,No,,Yes
+CLM00775,H008,San Antonio Health,San Antonio,TX,Government,Emergency,Cigna,2023-10-23,20,35325.15,31643.27,89.6,No,,No
+CLM00776,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Gastroenterology,Blue Cross,2022-04-07,7,8817.53,7702.21,87.4,Yes,Missing documentation,No
+CLM00777,H008,San Antonio Health,San Antonio,TX,Government,Pulmonology,Medicaid,2023-02-25,21,55753.28,37554.23,67.4,No,,No
+CLM00778,H008,San Antonio Health,San Antonio,TX,Government,Orthopedics,Aetna,2023-08-01,5,36726.92,31278.33,85.2,No,,No
+CLM00779,H008,San Antonio Health,San Antonio,TX,Government,Neurology,Medicaid,2023-12-14,13,18311.76,12579.14,68.7,Yes,Missing documentation,Yes
+CLM00780,H008,San Antonio Health,San Antonio,TX,Government,Pulmonology,UnitedHealth,2024-10-20,10,51252.6,46405.66,90.5,Yes,Coding error,No
+CLM00781,H008,San Antonio Health,San Antonio,TX,Government,Orthopedics,Cigna,2023-11-16,19,6568.84,5464.63,83.2,No,,Yes
+CLM00782,H002,Miami Medical Center,Miami,FL,For-Profit,Emergency,UnitedHealth,2023-08-15,14,79903.53,70688.77,88.5,Yes,Duplicate claim,No
+CLM00783,H004,Houston Care Center,Houston,TX,Government,Neurology,Medicaid,2022-08-10,20,50569.5,35322.66,69.8,No,,No
+CLM00784,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Emergency,Self-Pay,2024-03-07,12,80089.95,37261.85,46.5,No,,No
+CLM00785,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Pulmonology,Cigna,2023-02-16,6,8697.02,7638.5,87.8,No,,No
+CLM00786,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Orthopedics,Medicaid,2022-03-27,12,47995.35,35033.06,73.0,No,,No
+CLM00787,H009,Dallas Medical Center,Dallas,TX,For-Profit,Cardiology,Self-Pay,2023-08-11,20,6816.08,3019.95,44.3,No,,No
+CLM00788,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Gastroenterology,Medicare,2024-10-04,5,65802.92,54333.62,82.6,No,,No
+CLM00789,H001,General Hospital NYC,New York,NY,Non-Profit,Emergency,Self-Pay,2022-10-27,4,39670.83,19207.02,48.4,No,,No
+CLM00790,H009,Dallas Medical Center,Dallas,TX,For-Profit,Cardiology,UnitedHealth,2024-05-15,7,10301.83,9405.49,91.3,No,,No
+CLM00791,H009,Dallas Medical Center,Dallas,TX,For-Profit,Emergency,Cigna,2023-04-14,12,74186.14,62719.16,84.5,No,,No
+CLM00792,H001,General Hospital NYC,New York,NY,Non-Profit,Orthopedics,Self-Pay,2023-07-21,17,69063.63,29982.73,43.4,Yes,Duplicate claim,No
+CLM00793,H004,Houston Care Center,Houston,TX,Government,Orthopedics,Self-Pay,2023-07-28,8,64417.85,28483.78,44.2,Yes,Coding error,No
+CLM00794,H009,Dallas Medical Center,Dallas,TX,For-Profit,Gastroenterology,Cigna,2022-09-03,5,31708.16,26412.15,83.3,No,,No
+CLM00795,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Oncology,Aetna,2022-11-19,2,83492.4,71505.6,85.6,No,,Yes
+CLM00796,H001,General Hospital NYC,New York,NY,Non-Profit,Pulmonology,Cigna,2024-12-28,10,68222.41,62599.61,91.8,No,,No
+CLM00797,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Pulmonology,Cigna,2024-03-13,9,27693.55,23938.74,86.4,No,,No
+CLM00798,H008,San Antonio Health,San Antonio,TX,Government,Pulmonology,Medicaid,2023-11-25,20,75612.91,52357.1,69.2,No,,No
+CLM00799,H004,Houston Care Center,Houston,TX,Government,Oncology,Medicare,2022-04-17,5,4587.01,3685.43,80.3,No,,No
+CLM00800,H009,Dallas Medical Center,Dallas,TX,For-Profit,Oncology,UnitedHealth,2023-04-24,1,29949.19,27360.64,91.4,Yes,Patient eligibility,No
+CLM00801,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Neurology,Medicare,2024-01-04,9,62620.84,53488.11,85.4,No,,No
+CLM00802,H008,San Antonio Health,San Antonio,TX,Government,Oncology,UnitedHealth,2024-10-21,8,63027.7,56429.63,89.5,No,,No
+CLM00803,H009,Dallas Medical Center,Dallas,TX,For-Profit,Gastroenterology,UnitedHealth,2024-09-08,19,21025.46,18500.73,88.0,No,,No
+CLM00804,H002,Miami Medical Center,Miami,FL,For-Profit,Oncology,UnitedHealth,2023-07-03,12,50127.82,46733.38,93.2,No,,No
+CLM00805,H002,Miami Medical Center,Miami,FL,For-Profit,Cardiology,Aetna,2024-09-25,15,75690.53,67184.83,88.8,Yes,Patient eligibility,No
+CLM00806,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Gastroenterology,Blue Cross,2023-12-27,15,50289.37,46449.58,92.4,No,,No
+CLM00807,H003,Chicago Health System,Chicago,IL,Non-Profit,Orthopedics,UnitedHealth,2022-09-23,5,12114.85,11159.17,92.1,No,,No
+CLM00808,H004,Houston Care Center,Houston,TX,Government,Emergency,Aetna,2023-10-04,18,4222.72,3613.31,85.6,No,,No
+CLM00809,H002,Miami Medical Center,Miami,FL,For-Profit,Oncology,UnitedHealth,2023-05-16,4,25680.81,23171.22,90.2,No,,No
+CLM00810,H001,General Hospital NYC,New York,NY,Non-Profit,Gastroenterology,Medicaid,2022-05-06,2,13368.67,9210.51,68.9,No,,No
+CLM00811,H008,San Antonio Health,San Antonio,TX,Government,Cardiology,Medicare,2023-10-11,2,47219.36,36677.94,77.7,No,,No
+CLM00812,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Emergency,Self-Pay,2024-08-15,5,61622.8,28381.67,46.1,No,,No
+CLM00813,H003,Chicago Health System,Chicago,IL,Non-Profit,Gastroenterology,Cigna,2023-07-18,20,28655.56,26076.02,91.0,No,,No
+CLM00814,H001,General Hospital NYC,New York,NY,Non-Profit,Pulmonology,Aetna,2023-12-18,6,62948.72,56942.89,90.5,No,,No
+CLM00815,H002,Miami Medical Center,Miami,FL,For-Profit,Pulmonology,UnitedHealth,2024-10-07,18,8610.19,8141.08,94.6,No,,Yes
+CLM00816,H008,San Antonio Health,San Antonio,TX,Government,Neurology,Medicare,2022-04-27,6,11543.65,9969.31,86.4,No,,No
+CLM00817,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Emergency,Medicare,2023-01-14,13,68877.91,57215.88,83.1,No,,No
+CLM00818,H003,Chicago Health System,Chicago,IL,Non-Profit,Emergency,Medicare,2022-05-06,9,73280.64,58751.89,80.2,Yes,Missing documentation,No
+CLM00819,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Gastroenterology,Medicare,2022-12-10,6,14377.99,12440.07,86.5,Yes,Duplicate claim,No
+CLM00820,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Cardiology,Blue Cross,2022-02-07,9,13395.46,12716.32,94.9,No,,No
+CLM00821,H004,Houston Care Center,Houston,TX,Government,Gastroenterology,UnitedHealth,2023-01-15,17,50433.43,45354.68,89.9,No,,Yes
+CLM00822,H009,Dallas Medical Center,Dallas,TX,For-Profit,Emergency,Medicare,2024-09-22,8,41928.32,33993.36,81.1,No,,Yes
+CLM00823,H002,Miami Medical Center,Miami,FL,For-Profit,Orthopedics,Self-Pay,2024-11-07,10,47818.07,22881.97,47.9,No,,No
+CLM00824,H003,Chicago Health System,Chicago,IL,Non-Profit,Oncology,UnitedHealth,2023-09-02,18,83773.28,77758.56,92.8,No,,No
+CLM00825,H001,General Hospital NYC,New York,NY,Non-Profit,Gastroenterology,Aetna,2023-08-20,21,81753.06,73747.23,90.2,No,,Yes
+CLM00826,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Gastroenterology,Cigna,2022-05-06,21,33242.82,28759.75,86.5,No,,No
+CLM00827,H009,Dallas Medical Center,Dallas,TX,For-Profit,Neurology,Medicare,2023-05-07,4,26603.3,21536.18,81.0,No,,No
+CLM00828,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Neurology,Self-Pay,2023-12-09,11,28078.38,13146.58,46.8,No,,No
+CLM00829,H004,Houston Care Center,Houston,TX,Government,Pulmonology,Blue Cross,2024-03-01,20,30026.09,27203.04,90.6,No,,No
+CLM00830,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Emergency,Medicare,2023-08-18,14,76770.66,64277.82,83.7,No,,No
+CLM00831,H002,Miami Medical Center,Miami,FL,For-Profit,Gastroenterology,Cigna,2024-07-12,15,55880.75,49391.04,88.4,No,,No
+CLM00832,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Orthopedics,Self-Pay,2022-08-08,1,65625.15,30824.33,47.0,Yes,Duplicate claim,No
+CLM00833,H001,General Hospital NYC,New York,NY,Non-Profit,Gastroenterology,Blue Cross,2022-12-08,7,58326.29,54297.1,93.1,Yes,Patient eligibility,No
+CLM00834,H008,San Antonio Health,San Antonio,TX,Government,Oncology,Medicare,2023-11-04,20,24943.16,21462.36,86.0,No,,No
+CLM00835,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Neurology,UnitedHealth,2022-03-19,19,42749.95,38696.34,90.5,No,,No
+CLM00836,H003,Chicago Health System,Chicago,IL,Non-Profit,Pulmonology,Medicare,2022-05-28,8,12140.48,10481.56,86.3,No,,No
+CLM00837,H001,General Hospital NYC,New York,NY,Non-Profit,Pulmonology,Cigna,2024-07-22,18,46000.62,39343.97,85.5,No,,Yes
+CLM00838,H001,General Hospital NYC,New York,NY,Non-Profit,Gastroenterology,Blue Cross,2024-06-25,9,37617.77,36094.65,96.0,Yes,Patient eligibility,No
+CLM00839,H001,General Hospital NYC,New York,NY,Non-Profit,Pulmonology,Medicaid,2023-04-03,18,5421.55,3913.49,72.2,No,,Yes
+CLM00840,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Gastroenterology,Medicare,2022-04-11,14,84187.1,66723.56,79.3,No,,No
+CLM00841,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Cardiology,Cigna,2023-11-27,14,53712.11,44730.76,83.3,No,,No
+CLM00842,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Orthopedics,Medicare,2022-04-25,2,41043.64,35538.88,86.6,No,,No
+CLM00843,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Neurology,Aetna,2023-07-28,19,65302.23,58937.54,90.3,Yes,Missing documentation,No
+CLM00844,H002,Miami Medical Center,Miami,FL,For-Profit,Gastroenterology,Medicaid,2022-02-22,2,6677.19,4742.4,71.0,No,,No
+CLM00845,H001,General Hospital NYC,New York,NY,Non-Profit,Neurology,Medicare,2024-10-20,4,26125.55,21113.25,80.8,No,,No
+CLM00846,H001,General Hospital NYC,New York,NY,Non-Profit,Emergency,Aetna,2022-11-15,20,40261.46,35543.24,88.3,No,,No
+CLM00847,H009,Dallas Medical Center,Dallas,TX,For-Profit,Oncology,UnitedHealth,2024-04-05,20,17572.19,15116.81,86.0,No,,No
+CLM00848,H009,Dallas Medical Center,Dallas,TX,For-Profit,Oncology,Blue Cross,2022-01-05,15,36654.08,34178.55,93.2,No,,No
+CLM00849,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Neurology,Aetna,2022-03-16,12,44346.0,40140.69,90.5,No,,No
+CLM00850,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Neurology,Blue Cross,2022-01-17,17,25803.84,24694.97,95.7,No,,No
+CLM00851,H009,Dallas Medical Center,Dallas,TX,For-Profit,Gastroenterology,Medicare,2023-02-07,7,36742.11,29009.39,79.0,No,,No
+CLM00852,H008,San Antonio Health,San Antonio,TX,Government,Pulmonology,Cigna,2024-06-10,11,83490.59,74304.64,89.0,No,,No
+CLM00853,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Oncology,Medicaid,2022-11-23,2,10254.8,7358.95,71.8,No,,No
+CLM00854,H004,Houston Care Center,Houston,TX,Government,Emergency,UnitedHealth,2022-07-27,11,19297.07,17330.21,89.8,No,,No
+CLM00855,H001,General Hospital NYC,New York,NY,Non-Profit,Oncology,Medicare,2023-10-02,4,7656.55,5918.53,77.3,Yes,Coding error,No
+CLM00856,H001,General Hospital NYC,New York,NY,Non-Profit,Orthopedics,Medicaid,2022-09-06,9,25222.42,16442.36,65.2,No,,No
+CLM00857,H004,Houston Care Center,Houston,TX,Government,Cardiology,Medicaid,2022-11-11,1,71880.6,51830.58,72.1,No,,No
+CLM00858,H004,Houston Care Center,Houston,TX,Government,Oncology,Aetna,2023-10-23,6,21552.52,19848.77,92.1,No,,No
+CLM00859,H002,Miami Medical Center,Miami,FL,For-Profit,Cardiology,Medicaid,2023-06-20,7,75207.38,48364.32,64.3,No,,No
+CLM00860,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Pulmonology,Medicaid,2023-03-08,19,78404.64,55377.84,70.6,No,,No
+CLM00861,H001,General Hospital NYC,New York,NY,Non-Profit,Pulmonology,Self-Pay,2024-04-03,17,24886.12,10269.15,41.3,No,,No
+CLM00862,H008,San Antonio Health,San Antonio,TX,Government,Gastroenterology,Cigna,2023-09-16,13,52843.02,44744.48,84.7,No,,No
+CLM00863,H009,Dallas Medical Center,Dallas,TX,For-Profit,Emergency,Medicaid,2024-05-13,16,28372.23,18935.28,66.7,No,,No
+CLM00864,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Pulmonology,Medicare,2023-05-13,15,18801.17,16159.39,85.9,No,,No
+CLM00865,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Orthopedics,Self-Pay,2023-09-08,5,32737.96,14897.58,45.5,No,,No
+CLM00866,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Cardiology,Aetna,2023-08-09,15,44273.88,38679.32,87.4,No,,No
+CLM00867,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Cardiology,Medicaid,2024-09-18,3,38380.99,25199.52,65.7,No,,Yes
+CLM00868,H002,Miami Medical Center,Miami,FL,For-Profit,Gastroenterology,Blue Cross,2022-06-22,3,78871.59,68605.74,87.0,No,,No
+CLM00869,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Oncology,Blue Cross,2024-03-24,9,63725.15,59700.8,93.7,No,,No
+CLM00870,H009,Dallas Medical Center,Dallas,TX,For-Profit,Oncology,Medicare,2024-07-25,12,65801.35,52521.62,79.8,No,,No
+CLM00871,H001,General Hospital NYC,New York,NY,Non-Profit,Emergency,Cigna,2024-12-07,5,44306.02,40146.4,90.6,No,,No
+CLM00872,H008,San Antonio Health,San Antonio,TX,Government,Orthopedics,UnitedHealth,2023-02-28,15,50514.8,45729.1,90.5,No,,No
+CLM00873,H004,Houston Care Center,Houston,TX,Government,Emergency,Self-Pay,2022-06-19,15,80151.14,35408.27,44.2,No,,No
+CLM00874,H003,Chicago Health System,Chicago,IL,Non-Profit,Oncology,Cigna,2023-11-25,12,2308.38,2103.03,91.1,No,,No
+CLM00875,H009,Dallas Medical Center,Dallas,TX,For-Profit,Oncology,Blue Cross,2024-06-21,2,50510.75,46306.12,91.7,No,,No
+CLM00876,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Neurology,UnitedHealth,2022-07-16,7,73889.89,70048.89,94.8,No,,Yes
+CLM00877,H002,Miami Medical Center,Miami,FL,For-Profit,Oncology,UnitedHealth,2022-03-27,10,81821.84,74777.01,91.4,Yes,Missing documentation,No
+CLM00878,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Emergency,Medicare,2024-11-03,13,17088.79,13277.12,77.7,No,,No
+CLM00879,H008,San Antonio Health,San Antonio,TX,Government,Cardiology,Blue Cross,2024-03-14,14,44797.4,39295.5,87.7,No,,No
+CLM00880,H008,San Antonio Health,San Antonio,TX,Government,Pulmonology,Medicare,2024-12-16,7,33980.91,29235.77,86.0,Yes,Prior authorization required,No
+CLM00881,H003,Chicago Health System,Chicago,IL,Non-Profit,Neurology,UnitedHealth,2022-04-05,17,79919.38,72626.67,90.9,No,,No
+CLM00882,H008,San Antonio Health,San Antonio,TX,Government,Cardiology,Self-Pay,2023-08-15,17,34836.28,16747.77,48.1,No,,No
+CLM00883,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Cardiology,Cigna,2023-05-20,15,9107.07,8147.46,89.5,No,,No
+CLM00884,H003,Chicago Health System,Chicago,IL,Non-Profit,Emergency,Medicaid,2024-03-19,14,16494.77,11410.65,69.2,No,,No
+CLM00885,H002,Miami Medical Center,Miami,FL,For-Profit,Emergency,Cigna,2024-05-03,6,80464.89,68714.56,85.4,No,,No
+CLM00886,H004,Houston Care Center,Houston,TX,Government,Emergency,Aetna,2023-06-15,12,84364.54,75530.09,89.5,Yes,Missing documentation,No
+CLM00887,H003,Chicago Health System,Chicago,IL,Non-Profit,Oncology,Medicaid,2023-08-11,3,43756.39,29588.8,67.6,No,,No
+CLM00888,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Gastroenterology,Medicaid,2024-11-15,4,34622.31,21849.23,63.1,No,,No
+CLM00889,H008,San Antonio Health,San Antonio,TX,Government,Emergency,Medicare,2022-03-20,15,8392.81,7013.89,83.6,Yes,Duplicate claim,No
+CLM00890,H002,Miami Medical Center,Miami,FL,For-Profit,Orthopedics,Blue Cross,2023-03-12,6,11866.64,11085.16,93.4,Yes,Missing documentation,No
+CLM00891,H003,Chicago Health System,Chicago,IL,Non-Profit,Orthopedics,Cigna,2024-11-21,7,4376.14,3927.6,89.8,No,,Yes
+CLM00892,H002,Miami Medical Center,Miami,FL,For-Profit,Emergency,Cigna,2023-04-08,1,27245.07,22756.21,83.5,Yes,Coding error,No
+CLM00893,H004,Houston Care Center,Houston,TX,Government,Cardiology,Medicare,2022-02-04,11,36710.51,31898.83,86.9,No,,No
+CLM00894,H003,Chicago Health System,Chicago,IL,Non-Profit,Pulmonology,Medicaid,2022-10-18,11,5175.04,3525.5,68.1,No,,No
+CLM00895,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Emergency,Medicare,2023-01-07,11,20906.08,16319.05,78.1,Yes,Coding error,No
+CLM00896,H008,San Antonio Health,San Antonio,TX,Government,Orthopedics,Medicare,2023-04-10,20,56439.8,45030.26,79.8,No,,Yes
+CLM00897,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Emergency,Medicare,2024-11-13,19,60996.35,51793.59,84.9,Yes,Missing documentation,No
+CLM00898,H003,Chicago Health System,Chicago,IL,Non-Profit,Oncology,Medicaid,2023-02-01,11,54552.01,39189.98,71.8,No,,No
+CLM00899,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Neurology,Aetna,2022-01-01,8,33428.01,30220.9,90.4,No,,No
+CLM00900,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Gastroenterology,Medicare,2023-06-10,8,27288.86,23026.1,84.4,No,,Yes
+CLM00901,H004,Houston Care Center,Houston,TX,Government,Orthopedics,Aetna,2022-06-09,20,18566.18,15665.97,84.4,No,,No
+CLM00902,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Pulmonology,Self-Pay,2022-01-28,14,65001.24,29386.23,45.2,No,,No
+CLM00903,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Oncology,Medicaid,2024-04-28,8,18685.76,11873.07,63.5,No,,No
+CLM00904,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Neurology,Blue Cross,2022-04-21,3,16826.05,15530.08,92.3,No,,Yes
+CLM00905,H003,Chicago Health System,Chicago,IL,Non-Profit,Orthopedics,Medicaid,2023-12-10,7,9161.91,6314.97,68.9,No,,Yes
+CLM00906,H003,Chicago Health System,Chicago,IL,Non-Profit,Pulmonology,Medicaid,2022-11-09,8,21951.23,14216.57,64.8,No,,No
+CLM00907,H008,San Antonio Health,San Antonio,TX,Government,Cardiology,Blue Cross,2022-07-27,15,34753.41,30470.98,87.7,No,,No
+CLM00908,H008,San Antonio Health,San Antonio,TX,Government,Cardiology,Self-Pay,2022-12-09,10,33348.51,16187.51,48.5,No,,No
+CLM00909,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Emergency,Blue Cross,2023-12-07,20,39375.86,35340.41,89.8,No,,No
+CLM00910,H003,Chicago Health System,Chicago,IL,Non-Profit,Orthopedics,Medicare,2024-07-12,12,2571.66,2108.94,82.0,No,,No
+CLM00911,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Emergency,Blue Cross,2023-02-19,14,55027.57,50561.03,91.9,No,,No
+CLM00912,H003,Chicago Health System,Chicago,IL,Non-Profit,Orthopedics,Self-Pay,2023-12-23,12,37930.88,16140.57,42.6,No,,No
+CLM00913,H001,General Hospital NYC,New York,NY,Non-Profit,Pulmonology,Aetna,2024-06-23,8,78864.32,72047.79,91.4,No,,No
+CLM00914,H001,General Hospital NYC,New York,NY,Non-Profit,Pulmonology,Cigna,2024-04-19,15,55385.35,47417.23,85.6,No,,No
+CLM00915,H003,Chicago Health System,Chicago,IL,Non-Profit,Cardiology,Medicare,2024-02-07,13,65876.18,54969.7,83.4,No,,No
+CLM00916,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Orthopedics,Self-Pay,2024-07-10,17,37143.77,17427.25,46.9,No,,No
+CLM00917,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Gastroenterology,Cigna,2023-03-24,19,74096.4,62309.69,84.1,No,,No
+CLM00918,H004,Houston Care Center,Houston,TX,Government,Pulmonology,Aetna,2024-02-14,6,59867.25,50326.93,84.1,No,,Yes
+CLM00919,H009,Dallas Medical Center,Dallas,TX,For-Profit,Emergency,Cigna,2023-04-06,6,25576.41,22330.63,87.3,No,,No
+CLM00920,H009,Dallas Medical Center,Dallas,TX,For-Profit,Cardiology,Aetna,2023-04-28,7,48852.19,42074.31,86.1,Yes,Prior authorization required,No
+CLM00921,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Emergency,Cigna,2023-02-03,21,77733.11,65367.29,84.1,Yes,Duplicate claim,Yes
+CLM00922,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Cardiology,UnitedHealth,2024-01-19,4,21104.14,18962.48,89.9,Yes,Duplicate claim,No
+CLM00923,H001,General Hospital NYC,New York,NY,Non-Profit,Cardiology,Medicaid,2023-05-16,20,45114.93,28455.17,63.1,No,,No
+CLM00924,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Neurology,Aetna,2024-06-13,11,29601.94,26884.07,90.8,No,,No
+CLM00925,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Neurology,Medicare,2022-03-20,4,82937.97,71103.36,85.7,Yes,Coding error,No
+CLM00926,H002,Miami Medical Center,Miami,FL,For-Profit,Gastroenterology,UnitedHealth,2023-11-17,8,24835.54,22846.87,92.0,No,,No
+CLM00927,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Pulmonology,Medicaid,2023-12-22,11,1761.28,1221.99,69.4,Yes,Duplicate claim,No
+CLM00928,H008,San Antonio Health,San Antonio,TX,Government,Orthopedics,UnitedHealth,2024-08-28,3,41958.77,38766.57,92.4,No,,No
+CLM00929,H002,Miami Medical Center,Miami,FL,For-Profit,Pulmonology,Aetna,2024-12-02,5,26037.56,22379.48,86.0,No,,No
+CLM00930,H003,Chicago Health System,Chicago,IL,Non-Profit,Emergency,Self-Pay,2022-08-16,18,8772.01,4238.95,48.3,No,,No
+CLM00931,H009,Dallas Medical Center,Dallas,TX,For-Profit,Orthopedics,Medicaid,2023-06-25,3,19172.01,13522.5,70.5,Yes,Missing documentation,No
+CLM00932,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Orthopedics,Cigna,2024-11-16,4,23011.98,20196.01,87.8,No,,No
+CLM00933,H002,Miami Medical Center,Miami,FL,For-Profit,Gastroenterology,Cigna,2023-11-13,19,29288.89,24965.28,85.2,No,,No
+CLM00934,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Pulmonology,Cigna,2023-02-03,14,67054.34,62134.21,92.7,No,,No
+CLM00935,H002,Miami Medical Center,Miami,FL,For-Profit,Cardiology,Blue Cross,2023-06-19,4,63338.53,60407.29,95.4,No,,No
+CLM00936,H001,General Hospital NYC,New York,NY,Non-Profit,Oncology,Medicare,2024-06-26,13,50769.99,40056.8,78.9,No,,No
+CLM00937,H003,Chicago Health System,Chicago,IL,Non-Profit,Neurology,Cigna,2022-05-16,13,51735.07,44089.36,85.2,Yes,Coding error,No
+CLM00938,H008,San Antonio Health,San Antonio,TX,Government,Orthopedics,UnitedHealth,2022-12-09,2,25163.3,23268.65,92.5,No,,No
+CLM00939,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Emergency,Cigna,2022-12-28,13,70695.39,62176.78,88.0,Yes,Duplicate claim,No
+CLM00940,H004,Houston Care Center,Houston,TX,Government,Pulmonology,Cigna,2024-05-28,6,5889.29,5397.79,91.7,No,,No
+CLM00941,H003,Chicago Health System,Chicago,IL,Non-Profit,Cardiology,UnitedHealth,2022-07-17,16,34255.85,30564.57,89.2,No,,No
+CLM00942,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Oncology,Cigna,2022-10-28,18,78575.83,70726.96,90.0,No,,No
+CLM00943,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Emergency,Cigna,2024-04-07,16,15168.49,12798.51,84.4,No,,No
+CLM00944,H001,General Hospital NYC,New York,NY,Non-Profit,Oncology,Cigna,2022-11-02,5,72987.8,61323.97,84.0,No,,No
+CLM00945,H002,Miami Medical Center,Miami,FL,For-Profit,Oncology,Aetna,2024-03-24,17,16499.35,13946.03,84.5,No,,No
+CLM00946,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Orthopedics,Medicare,2024-11-13,10,11420.01,9246.38,81.0,No,,No
+CLM00947,H002,Miami Medical Center,Miami,FL,For-Profit,Gastroenterology,Aetna,2022-01-04,9,73718.8,66717.81,90.5,No,,No
+CLM00948,H002,Miami Medical Center,Miami,FL,For-Profit,Cardiology,Aetna,2023-08-23,8,55057.68,51250.32,93.1,Yes,Patient eligibility,No
+CLM00949,H002,Miami Medical Center,Miami,FL,For-Profit,Gastroenterology,UnitedHealth,2022-03-11,21,16621.57,14933.14,89.8,No,,No
+CLM00950,H002,Miami Medical Center,Miami,FL,For-Profit,Pulmonology,Self-Pay,2023-09-03,1,67901.27,28415.93,41.8,No,,No
+CLM00951,H009,Dallas Medical Center,Dallas,TX,For-Profit,Gastroenterology,UnitedHealth,2022-02-28,21,46504.98,43337.19,93.2,Yes,Prior authorization required,No
+CLM00952,H010,Seattle Care Hospital,Seattle,WA,Non-Profit,Pulmonology,Medicaid,2022-11-03,11,1944.55,1312.03,67.5,Yes,Prior authorization required,No
+CLM00953,H009,Dallas Medical Center,Dallas,TX,For-Profit,Oncology,Self-Pay,2022-09-14,4,64381.24,26297.23,40.8,No,,No
+CLM00954,H001,General Hospital NYC,New York,NY,Non-Profit,Orthopedics,Blue Cross,2023-10-23,10,5354.88,5111.66,95.5,No,,No
+CLM00955,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Neurology,Blue Cross,2022-01-05,4,52115.37,47480.18,91.1,No,,Yes
+CLM00956,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Gastroenterology,Self-Pay,2024-03-20,18,19470.28,8049.42,41.3,No,,No
+CLM00957,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Cardiology,UnitedHealth,2024-05-14,6,22789.78,20241.39,88.8,No,,Yes
+CLM00958,H003,Chicago Health System,Chicago,IL,Non-Profit,Neurology,Medicaid,2024-06-22,21,7391.6,5198.27,70.3,No,,No
+CLM00959,H009,Dallas Medical Center,Dallas,TX,For-Profit,Neurology,Medicaid,2022-04-09,14,36543.82,23583.52,64.5,No,,No
+CLM00960,H002,Miami Medical Center,Miami,FL,For-Profit,Neurology,Medicare,2023-06-05,11,58612.27,47515.69,81.1,No,,No
+CLM00961,H004,Houston Care Center,Houston,TX,Government,Oncology,Medicare,2022-02-17,8,9678.56,8400.49,86.8,No,,Yes
+CLM00962,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Neurology,Self-Pay,2023-09-20,12,68867.65,28205.03,41.0,No,,No
+CLM00963,H002,Miami Medical Center,Miami,FL,For-Profit,Cardiology,Medicaid,2024-09-20,6,28052.7,19782.41,70.5,No,,No
+CLM00964,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Emergency,UnitedHealth,2023-03-19,17,12152.28,10340.98,85.1,No,,No
+CLM00965,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Cardiology,Cigna,2022-08-15,8,54872.66,47575.42,86.7,No,,No
+CLM00966,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Gastroenterology,Aetna,2023-04-21,14,43436.14,37684.43,86.8,No,,No
+CLM00967,H002,Miami Medical Center,Miami,FL,For-Profit,Oncology,Aetna,2024-03-02,21,65843.3,60873.75,92.5,Yes,Prior authorization required,No
+CLM00968,H002,Miami Medical Center,Miami,FL,For-Profit,Pulmonology,Blue Cross,2024-09-05,1,47772.34,43438.67,90.9,No,,No
+CLM00969,H008,San Antonio Health,San Antonio,TX,Government,Emergency,UnitedHealth,2022-10-27,18,58707.68,53874.71,91.8,No,,No
+CLM00970,H001,General Hospital NYC,New York,NY,Non-Profit,Pulmonology,Aetna,2024-09-20,8,60166.41,55050.27,91.5,No,,No
+CLM00971,H001,General Hospital NYC,New York,NY,Non-Profit,Neurology,Aetna,2022-06-17,17,82048.06,74454.69,90.7,No,,No
+CLM00972,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Cardiology,Aetna,2022-09-10,4,42874.91,36745.87,85.7,No,,No
+CLM00973,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Emergency,Blue Cross,2024-05-17,21,23606.69,20307.03,86.0,No,,No
+CLM00974,H001,General Hospital NYC,New York,NY,Non-Profit,Emergency,UnitedHealth,2022-06-01,1,72337.37,61902.68,85.6,No,,No
+CLM00975,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Pulmonology,Medicaid,2022-09-14,14,35072.69,22126.88,63.1,No,,Yes
+CLM00976,H002,Miami Medical Center,Miami,FL,For-Profit,Emergency,Medicare,2023-06-06,8,14495.14,12113.06,83.6,No,,No
+CLM00977,H009,Dallas Medical Center,Dallas,TX,For-Profit,Gastroenterology,Blue Cross,2023-01-28,15,10576.03,9559.22,90.4,Yes,Duplicate claim,No
+CLM00978,H004,Houston Care Center,Houston,TX,Government,Cardiology,Medicaid,2024-03-07,14,25289.13,16270.22,64.3,No,,No
+CLM00979,H008,San Antonio Health,San Antonio,TX,Government,Pulmonology,Blue Cross,2023-06-17,16,11419.16,10378.95,90.9,No,,No
+CLM00980,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Orthopedics,Medicare,2022-11-02,5,81466.16,69186.87,84.9,Yes,Patient eligibility,Yes
+CLM00981,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Emergency,UnitedHealth,2022-07-20,10,63075.53,56353.75,89.3,No,,Yes
+CLM00982,H003,Chicago Health System,Chicago,IL,Non-Profit,Pulmonology,UnitedHealth,2024-04-27,4,17102.83,15018.23,87.8,No,,No
+CLM00983,H007,Philadelphia General,Philadelphia,PA,Non-Profit,Orthopedics,Aetna,2024-10-21,17,60489.49,55710.53,92.1,No,,No
+CLM00984,H003,Chicago Health System,Chicago,IL,Non-Profit,Orthopedics,Medicare,2022-10-03,7,12546.7,9709.1,77.4,No,,No
+CLM00985,H001,General Hospital NYC,New York,NY,Non-Profit,Emergency,Aetna,2024-01-14,8,45335.09,41255.65,91.0,No,,No
+CLM00986,H001,General Hospital NYC,New York,NY,Non-Profit,Oncology,Medicare,2022-01-02,12,23982.05,19139.01,79.8,No,,No
+CLM00987,H001,General Hospital NYC,New York,NY,Non-Profit,Cardiology,Cigna,2022-07-09,16,63687.02,54210.25,85.1,No,,No
+CLM00988,H008,San Antonio Health,San Antonio,TX,Government,Oncology,Blue Cross,2023-03-12,1,26913.78,23406.61,87.0,No,,No
+CLM00989,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Pulmonology,Self-Pay,2022-07-04,8,50674.07,23333.96,46.0,No,,No
+CLM00990,H003,Chicago Health System,Chicago,IL,Non-Profit,Pulmonology,Cigna,2022-08-03,21,51753.23,43167.57,83.4,No,,No
+CLM00991,H009,Dallas Medical Center,Dallas,TX,For-Profit,Neurology,Blue Cross,2022-03-14,7,26673.28,24203.86,90.7,No,,No
+CLM00992,H009,Dallas Medical Center,Dallas,TX,For-Profit,Pulmonology,Blue Cross,2024-08-23,18,75947.49,71081.95,93.6,No,,No
+CLM00993,H002,Miami Medical Center,Miami,FL,For-Profit,Emergency,Medicare,2024-05-05,17,41815.52,34388.09,82.2,No,,No
+CLM00994,H005,LA Regional Hospital,Los Angeles,CA,Non-Profit,Cardiology,UnitedHealth,2024-11-28,7,6576.25,6229.34,94.7,No,,No
+CLM00995,H009,Dallas Medical Center,Dallas,TX,For-Profit,Cardiology,Medicaid,2022-05-06,18,38051.7,25910.46,68.1,No,,No
+CLM00996,H001,General Hospital NYC,New York,NY,Non-Profit,Orthopedics,UnitedHealth,2023-09-10,17,19686.94,18105.53,92.0,No,,No
+CLM00997,H004,Houston Care Center,Houston,TX,Government,Oncology,Cigna,2022-11-09,8,23920.97,20139.31,84.2,Yes,Prior authorization required,No
+CLM00998,H003,Chicago Health System,Chicago,IL,Non-Profit,Oncology,Self-Pay,2022-02-21,8,67516.88,31344.12,46.4,No,,No
+CLM00999,H006,Phoenix Medical,Phoenix,AZ,For-Profit,Pulmonology,UnitedHealth,2023-10-11,18,82680.26,72961.71,88.2,No,,No
+CLM01000,H001,General Hospital NYC,New York,NY,Non-Profit,Pulmonology,Self-Pay,2022-10-24,9,2369.08,1031.85,43.6,Yes,Missing documentation,No
