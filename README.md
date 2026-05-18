@@ -177,7 +177,7 @@ healthcare-revenue-cycle-analysis/
 
 **Monique Assis** — Healthcare Data Analyst with 10+ years of experience in clinical data, revenue cycle analytics, and BI solutions at one of Brazil's largest hospital networks.
 
-- 🔗 [LinkedIn](https://linkedin.com/in/monique-assis)
+- 🔗 [LinkedIn](https://www.linkedin.com/in/monique-r-assis/)
 - 📧 moniquerassis@gmail.com
 
 ---
